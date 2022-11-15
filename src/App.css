@@ -29,8 +29,13 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-weight: bold;
+    font-size: 38px;
+}
+
 h3 {
-    font-size: 24px;
+    font-size: 34px;
     font-weight: 400;
 }
 
@@ -49,7 +54,7 @@ input {
 }
 
 :root {
-    --primary-color: #17b9b9;
+    --primary-color: #39A8E7;
 
     --white: #fafafa;
     --black: #1c1c1c;

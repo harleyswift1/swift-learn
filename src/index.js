@@ -4,12 +4,13 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import App from './App';
 import "../src/App.css"
 import GettingStarted from "./components/lessons/1_getting-started/GettingStarted";
+import Home from "./components/home/Home";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<BrowserRouter>
     <Routes>
-        <Route path="/" element={<App lesson={<GettingStarted/>}/>}>
-            <Route index element={<App lesson={<GettingStarted/>}/>}/>
+        <Route path="/" element={<Home />} />
+            <Route index element={<Home />}/>
 
             {/*lessons*/}
 
@@ -28,6 +29,5 @@ root.render(<BrowserRouter>
             <Route path="integer" element={<App lesson={<GettingStarted/>}/>}/>
             <Route path="boolean" element={<App lesson={<GettingStarted/>}/>}/>
             <Route path="float" element={<App lesson={<GettingStarted/>}/>}/>
-        </Route>
     </Routes>
 </BrowserRouter>);
