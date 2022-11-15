@@ -12,7 +12,7 @@ export default function GettingStarted() {
             It was originally produced in 1994 by Rasmus Lerdorf, a Danish Canadian
             programmer. The PHP Group is now producing the PHP reference implementation.
             PHP used to stand for Personal Home Page, now it stands for Hypertext
-            Preprocessor.</p>
+            Preprocessor</p>
         <Tooltip type={"tip"} icon={tip_icon} title={"Tip"} content={"PHP is similar to JavaScript, although instead of running on the client-side, it runs on server-side"}/>
         <div className="page-buttons">
             <Button text={"Previous Page"} icon={null} bg={"var(--superlight-gray)"} color={"var(--black)"}/>
