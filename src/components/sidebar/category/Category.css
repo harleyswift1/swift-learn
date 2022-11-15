@@ -1,0 +1,19 @@
+.category {
+    margin: 1rem 0;
+}
+
+.category-title {
+    font-size: 1.4rem;
+    color: black;
+}
+
+.category-elements {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.4rem;
+}
+
+.category-subtitle {
+    color: var(--dark-gray);
+    margin-left: 0.4rem;
+}

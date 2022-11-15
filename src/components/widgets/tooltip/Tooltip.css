@@ -1,0 +1,43 @@
+.tooltip {
+    width: 100%;
+    padding: 0.8rem 0 0.2rem 1rem;
+    border-radius: 8px;
+    background-color: #F2F2F2;
+    margin: 2rem 0;
+}
+
+.tooltip p {
+    max-width: 95%;
+    color: var(--tooltip-color);
+}
+
+.tooltip-header {
+    display: flex;
+    column-gap: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.type-tip {
+    border-left: 8px solid var(--primary-color);
+    color: var(--primary-color)
+}
+
+.type-info {
+    border-left: 8px solid var(--info);
+    color: var(--info)
+}
+
+.type-horray {
+    border-left: 8px solid var(--horray);
+    color: var(--horray)
+}
+
+.type-error {
+    border-left: 8px solid var(--error);
+    color: var(--error)
+}
+
+.no-border {
+    border-left: 0;
+}

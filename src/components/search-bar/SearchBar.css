@@ -1,0 +1,19 @@
+.search-bar-container {
+    display: flex;
+    width: 25rem;
+
+}
+
+.search-bar-input {
+    border-radius: 8px;
+    background-color: var(--white);
+    color: #4d4d4d;
+    width: 100%;
+    padding: 0.8rem 1rem;
+}
+
+@media all and (max-width: 800px) {
+    .search-bar-container {
+        display: none;
+    }
+}
