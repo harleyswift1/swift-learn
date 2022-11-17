@@ -9,6 +9,7 @@
 .tooltip p {
     max-width: 95%;
     color: var(--tooltip-color);
+    margin: 0.2rem 0;
 }
 
 .tooltip-header {

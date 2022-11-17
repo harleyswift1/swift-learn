@@ -1,7 +1,7 @@
 import Breadcrumb from "../../breadcrumb/Breadcrumb";
 import Tooltip from "../../widgets/tooltip/Tooltip";
 import Button from "../../resuable/Button/Button";
-import tip_icon from "../../../assets/icons/tip-icon.png";
+import tip_icon from "../../../assets/icons/tip-icon.svg"
 
 export default function GettingStarted() {
     return (<div className={"lesson-content"}>
