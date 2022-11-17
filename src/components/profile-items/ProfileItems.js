@@ -8,7 +8,7 @@ import Button from "../resuable/Button/Button";
 export default function ProfileItems() {
     return (<div className="profile-items">
         <SearchBar/>
-        <Button text={"Go Pro"} icon={flame_icon} />
+        <Button text={"Go Pro"}/>
         <div className="trophy-container">
             <img src={trophy_icon} alt="trophy points"/>
             <span>246</span>
