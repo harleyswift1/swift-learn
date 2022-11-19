@@ -3,7 +3,7 @@
     padding: 0.8rem 0 0.2rem 1rem;
     border-radius: 8px;
     background-color: #F2F2F2;
-    margin: 2rem 0;
+    margin: 1.4rem 0;
 }
 
 .tooltip p {
@@ -20,7 +20,7 @@
 }
 
 .type-tip {
-    border-left: 8px solid var(--primary-color);
+    border-left: 8px solid var(--tip);
     color: var(--primary-color)
 }
 

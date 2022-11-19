@@ -3,6 +3,7 @@ import home_image from "../../assets/images/hero_image.png";
 import cloud from "../../assets/images/cloud.png";
 import scroll_down_icon from "../../assets/icons/scroll_down_icon.png";
 import LessonWidget from "../widgets/lesson-widget/LessonWidget";
+import CourseSearchBar from "./course-search-bar/CourseSearchBar";
 
 export default function Home() {
     return (<div>
@@ -16,7 +17,11 @@ export default function Home() {
         </section>
 
         <main className="lesson-section">
-            <h1>Select your course</h1>
+            <div className="lessons-header">
+                <h2>Select your course</h2>
+                <p>Chose from one of our many courses below. Theres one for every topic, so take your pick!</p>
+                <CourseSearchBar />
+            </div>
             <div><h3>Basics</h3></div>
             <div className="lesson-widgets-container">
                 <LessonWidget url={"introduction-to-php"} title={"Introduction to PHP"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolorum."}/>

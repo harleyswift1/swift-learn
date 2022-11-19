@@ -9,10 +9,11 @@ body, html {
 a {
     text-decoration: none;
     margin: 0.08rem 0;
+    color: #dcdcdc;
 }
 
 a:hover {
-    color: var(--primary-color);
+    color: #7a7a7a;
 }
 
 * {
@@ -40,7 +41,7 @@ h3 {
 }
 
 h1, h2, h3, h4, h5, h6, p, span {
-    color: #363636;
+    color: #2c2c2c;
     line-height: 1.5;
 }
 
@@ -54,18 +55,21 @@ input {
 }
 
 :root {
-    --primary-color: #2a2a2a;
+    --primary-color: #282828;
 
     --white: #fafafa;
     --black: #1c1c1c;
     --dark-gray: #232323;
     --superlight-gray: #e5e5e5;
     --light-gray: #c9c9c9;
-    --pro-primary: #FF007A;
 
+    --php-color: #5DD7C1;
+    --tip: #3d3e4d;
     --info: #FFBD13;
     --error: #E55353;
     --horray: #40CC45;
     --challenge: #39A8E7;
-    --tooltip-color: #6F6F6F;
+    --tooltip-color: #606060;
 }
+
+

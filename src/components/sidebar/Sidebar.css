@@ -1,8 +1,10 @@
 .sidebar {
     float: right;
-    width: 18rem;
     background-color: #efefef;
     padding: 1rem;
+    max-height: 100vh;
+    overflow: scroll;
+    flex: 1;
 }
 
 .sidebar-header {

@@ -1,17 +1,19 @@
-.search-bar-container {
-    width: 25rem;
+.course-search-bar-container {
+    display: flex;
+    width: 35rem;
+
 }
 
-.search-bar-input {
+.course-search-bar-input {
     border-radius: 8px;
     background-color: var(--white);
-    color: #4d4d4d;
+    color: #737373;
     width: 100%;
     padding: 0.8rem 1rem;
 }
 
 @media all and (max-width: 800px) {
-    .search-bar-container {
+    .course-search-bar-container {
         display: none;
     }
 }

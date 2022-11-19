@@ -1,8 +1,14 @@
 header {
-    padding: 0 1rem;
+    padding: 0 1rem 0 4.3rem;
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
+}
+
+.titlebar-header {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
 }
 
 .logo {
@@ -11,4 +17,13 @@ header {
     padding: 1.4rem 0;
     display: flex;
     color: white;
+}
+
+.nav-items {
+    list-style: none;
+}
+
+.nav-items li {
+    display: inline;
+    margin: 0 1rem;
 }

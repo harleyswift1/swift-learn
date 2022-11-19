@@ -1,0 +1,19 @@
+- Create profile page
+- Make it so you can collapse/expand lesson categories
+- Do widgets on the right
+- Make sure entire page is responsive
+- Make sure sidebar is mobile friendly
+- Create base "challenge" page
+- Create some challenges
+- Implement user auth with accounts
+- Link challenges with account so you can earn trophies
+- Create confetti animation when you complete a challenge
+- Make it where you can click a sidebar category and it will open a new page with widgets to the subcategories
+- Make breadcrumbs work so you can click the category and it will take y ou to the subcategories page
+- Next page buttons work
+- Design footer
+- Do footer
+
+DONE:
+- Add nav links to header
+- Finish home page
