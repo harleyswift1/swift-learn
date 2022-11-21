@@ -4,8 +4,9 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import "../src/App.css"
 import Home from "./components/home/Home";
 import Content from "./components/content/Content";
-import IntroductionToPHP from "./components/lessons/1_introduction-to-php/IntroductionToPHP";
 import ProfilePage from "./components/profile-page/ProfilePage";
+import IntroductionToPHP from "./components/lessons/introduction-to-php/IntroductionToPHP";
+import CoursesPage from "./components/courses-page/CoursesPage";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<BrowserRouter>
@@ -13,11 +14,12 @@ root.render(<BrowserRouter>
 
         {/*base routes*/}
         <Route path="/" element={<Home/>}/>
+        <Route path="*" element={<Home/>}/>
         <Route index element={<Home/>}/>
         <Route path="home" element={<Home/>}/>
-        <Route path="courses" element={<Home/>}/>
         <Route path="challenges" element={<Home/>}/>
         <Route path="profile" element={<Content mainComponent={<ProfilePage/>}/>}/>
+        <Route path="courses" element={<Content mainComponent={<CoursesPage/>}/>}/>
 
         {/*lesson routes*/}
 

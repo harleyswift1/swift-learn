@@ -4,6 +4,7 @@
     padding: 1rem;
     max-height: 100vh;
     overflow: scroll;
+    overflow-x: hidden;
     flex: 1;
 }
 

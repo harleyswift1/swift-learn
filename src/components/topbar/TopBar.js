@@ -9,7 +9,7 @@ export default function TopBar() {
             </a>
             <ul className={"nav-items"}>
                 <li><a href="home">Home</a></li>
-                <li><a href="home">Courses</a></li>
+                <li><a href="courses">Courses</a></li>
                 <li><a href="challenges">Challenges</a></li>
             </ul>
         </div>

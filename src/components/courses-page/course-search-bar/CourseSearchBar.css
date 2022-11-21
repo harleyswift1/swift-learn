@@ -1,13 +1,13 @@
 .course-search-bar-container {
     display: flex;
-    width: 35rem;
-
+    width: 50rem;
+    margin-bottom: 4rem;
 }
 
 .course-search-bar-input {
     border-radius: 8px;
     background-color: var(--white);
-    color: #737373;
+    color: #383838;
     width: 100%;
     padding: 0.8rem 1rem;
 }

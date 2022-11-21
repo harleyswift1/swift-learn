@@ -17,3 +17,7 @@
     color: var(--dark-gray);
     margin-left: 0.4rem;
 }
+
+.active {
+    font-weight: bold;
+}

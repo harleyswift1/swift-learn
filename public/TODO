@@ -1,4 +1,3 @@
-- Create profile page
 - Make it so you can collapse/expand lesson categories
 - Do widgets on the right
 - Make sure entire page is responsive
@@ -14,6 +13,13 @@
 - Design footer
 - Do footer
 
+DOING NOW:
+- Do widgets on the right
+
 DONE:
 - Add nav links to header
 - Finish home page
+- Get .active link working bold on sidebar
+- MAKE COURSES PAGE INTO A NEW CONTENT SECTION (Make it have a sidebar, header etc just like profile page and lessons page)
+- Leave the home page just to be a static landing page with one button saying "Go to courses";
+- Create profile page

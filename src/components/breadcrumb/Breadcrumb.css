@@ -1,13 +1,12 @@
-.breadcrumbs {
-}
-
-.breadcrumbs-topic {
+.breadcrumbs a {
     font-size: 1rem;
     color: #2B2B2B;
     margin: 0 0.2rem;
 
-}.breadcrumbs-subtopic {
-     font-size: 0.8rem;
-     color: #686868;
-     margin: 0 0.2rem;
- }
+}
+
+.breadcrumbs-subtopic {
+    font-size: 0.8rem;
+    color: #686868;
+    margin: 0 0.2rem;
+}

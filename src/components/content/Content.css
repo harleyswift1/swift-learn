@@ -7,14 +7,13 @@
     flex-direction: column;
     max-height: 100vh;
     overflow: scroll;
-    flex: 7;
+    overflow-x: hidden;
+    flex: 6;
 }
 
 .main-component {
-    max-width: 60%;
-    min-width: 60%;
+    display: flex;
     padding: 4rem;
-
 }
 
 

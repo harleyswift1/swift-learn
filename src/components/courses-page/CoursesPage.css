@@ -1,0 +1,17 @@
+
+/* lesson section */
+.lesson-section {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.lessons-header p {
+    font-size: 1.4rem;
+}
+
+.lesson-widgets-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0 4rem 0;
+}

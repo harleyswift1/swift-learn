@@ -1,6 +1,8 @@
 .button {
     border-radius: 8px;
     background-color: var(--white);
+    outline: none;
+    border: none;
     cursor: pointer;
     display: flex;
     column-gap: 0.6rem;
