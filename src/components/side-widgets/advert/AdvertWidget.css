@@ -1,0 +1,10 @@
+.advert-widget {
+    margin: 2rem 0;
+}
+
+.advert-widget img {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 8px;
+}

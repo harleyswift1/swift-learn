@@ -5,8 +5,8 @@
 .main {
     display: flex;
     flex-direction: column;
-    max-height: 100vh;
     overflow: scroll;
+    max-height: 100vh;
     overflow-x: hidden;
     flex: 6;
 }
@@ -22,10 +22,6 @@
         display: none;
     }
 
-    .main {
-        justify-content: center;
-    }
-
     .main-component {
         min-width: 90%;
         max-width: 90%;
@@ -37,4 +33,9 @@
 .page-buttons {
     display: flex;
     justify-content: space-between;
+}
+
+.widgets {
+    margin: 0 4rem 0 6rem;
+    width: 50rem;
 }

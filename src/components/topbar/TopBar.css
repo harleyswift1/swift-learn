@@ -1,5 +1,5 @@
 header {
-    padding: 0 1rem 0 4.3rem;
+    padding: 0.5rem 1rem 0.5rem 4.3rem;
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
@@ -13,10 +13,8 @@ header {
 
 .logo {
     font-size: 1.2rem;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.3rem;
     color: var(--white);
-    padding: 1.4rem 0;
-    display: flex;
 }
 
 .nav-items {

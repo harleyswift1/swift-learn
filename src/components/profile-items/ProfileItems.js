@@ -5,9 +5,13 @@ import Button from "../resuable/Button/Button";
 import SearchBar from "../search-bar/SearchBar";
 
 export default function ProfileItems() {
+    function handleClick() {
+        alert("This feature is coming soon!");
+    }
+
     return (<div className="profile-items">
         <SearchBar/>
-        <Button text={"Go Pro"}/>
+        <div onClick={handleClick}><Button text={"Go Pro"}/></div>
         <div className="trophy-container">
             <img src={trophy_icon} alt="trophy points"/>
             <span>246</span>

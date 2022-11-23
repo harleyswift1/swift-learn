@@ -3,6 +3,8 @@ import Tooltip from "../../widgets/tooltip/Tooltip";
 import Button from "../../resuable/Button/Button";
 import tip_icon from "../../../assets/icons/tip-icon.svg"
 import PHPCode from "../../widgets/php/PHPCode";
+import Contents from "../../side-widgets/contents/Contents";
+import AdvertWidget from "../../side-widgets/advert/AdvertWidget";
 
 export default function IntroductionToPHP() {
     //const previousPage = ""; // first page (delete)
@@ -29,7 +31,7 @@ export default function IntroductionToPHP() {
             <p>Just like other programming languages, PHP has a strict(ish) syntax that you must follow when
                 writing it's code. Most programming IDEs such as WebStorm, VSCode or Sublime Text can be used to write PHP code.</p>
             <p>You can write PHP by creating a file ending in .php, or opening PHP tags inside a PHP file.</p>
-            <PHPCode description="This is how you write Hello World in PHP" content={"<?php \n  echo 'Hello World!'; \n ?>"}/>
+            <PHPCode description="This is how you write Hello World in PHP" content={"<?php \n  echo 'Hello World!'; \n?>"}/>
             <h3>Congratulations!</h3>
             <p>You have completed your first PHP lesson! There's plenty more, so click the "Next Page" button to go to the next lesson.</p>
             <br/>
@@ -43,6 +45,9 @@ export default function IntroductionToPHP() {
                 </a>
             </div>
         </div>
-        <div className={"widgets"}>WIDGETS BAR</div>
+        <div className={"widgets"}>
+            <Contents items={["Introduction", "How is PHP written?", "Congratulations!"]} />
+            <AdvertWidget />
+        </div>
     </div>)
 }

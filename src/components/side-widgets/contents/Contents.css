@@ -1,0 +1,17 @@
+.contents-widget {
+    padding: 1rem;
+    border: 1px solid #bbbbbb;
+    border-left: 8px solid var(--primary-color);
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+.contents-widget-header {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.contents-widget-items span {
+    display: block;
+    margin: 1rem 0.8rem;
+}
