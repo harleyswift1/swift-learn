@@ -5,7 +5,7 @@ import tip_icon from "../../../assets/icons/tip-icon.svg"
 import PHPCode from "../../widgets/php/PHPCode";
 
 export default function IntroductionToPHP() {
-    const previousPage = ""; // first page (delete)
+    //const previousPage = ""; // first page (delete)
     const nextPage = "getting-started";
 
     return (<div className={"main-component"}>
