@@ -10,8 +10,8 @@ export default function Category(props) {
             {items.map((item) => (<a className={(item.replaceAll(" ", "-").toLowerCase() === pathName ? "active" : "") + " category-subtitle"}
                                      href={item.replaceAll(" ", "-").toLowerCase()}
                                      key={item}>
-                    {item}
-                </a>))}
+                {item}
+            </a>))}
         </div>
     </div>)
 }

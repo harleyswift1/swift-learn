@@ -1,11 +1,3 @@
-
-/* lesson section */
-.lesson-section {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-}
-
 .lessons-header p {
     font-size: 1.4rem;
 }

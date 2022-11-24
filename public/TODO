@@ -1,5 +1,3 @@
-- Make it so you can collapse/expand lesson categories
-- Do widgets on the right
 - Make sure entire page is responsive
 - Make sure sidebar is mobile friendly
 - Create base "challenge" page
@@ -12,14 +10,14 @@
 - Next page buttons work
 - Design footer
 - Do footer
-- Split project structure into pages folders
 - Turn course data into MySQL Database
 
 
 DOING NOW:
-- Do widgets on the right
+- Split project structure into pages folders
 
 DONE:
+- Do widgets on the right
 - Add nav links to header
 - Finish home page
 - Get .active link working bold on sidebar

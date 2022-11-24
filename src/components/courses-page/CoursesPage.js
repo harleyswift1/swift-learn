@@ -5,7 +5,7 @@ import LessonWidget from "../widgets/lesson-widget/LessonWidget";
 export default function CoursesPage() {
 
     return (<div className="main-component">
-        <main className="lesson-section">
+        <main>
             <div className="lessons-header">
                 <h2>Select your course</h2>
                 <p>Chose from one of our many courses below. Theres one for every topic, so take your pick!</p>
