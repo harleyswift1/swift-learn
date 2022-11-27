@@ -3,32 +3,18 @@
 }
 
 .main {
-    display: flex;
-    flex-direction: column;
     overflow: scroll;
     max-height: 100vh;
     overflow-x: hidden;
     flex: 6;
+    background-color: var(--superdark-gray);
 }
 
 .main-component {
     display: flex;
     padding: 4rem;
     margin-bottom: 50rem;
-}
-
-
-@media all and (max-width: 1000px) {
-    .sidebar {
-        display: none;
-    }
-
-    .main-component {
-        min-width: 90%;
-        max-width: 90%;
-        padding: 2rem;
-        margin: auto;
-    }
+    column-gap: 8rem;
 }
 
 .page-buttons {
@@ -36,7 +22,21 @@
     justify-content: space-between;
 }
 
-.widgets {
-    margin: 0 4rem 0 6rem;
-    width: 50rem;
+.widgets-container {
+    max-width: 20rem;
+    flex-wrap: wrap;
+}
+
+@media all and (max-width: 1200px) {
+    .sidebar {
+        display: none;
+    }
+
+    .main-component {
+        flex-direction: column;
+    }
+
+    .widgets-container {
+        max-width: 100%;
+    }
 }

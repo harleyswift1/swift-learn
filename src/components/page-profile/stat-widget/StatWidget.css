@@ -1,0 +1,23 @@
+.stat-widget {
+    background-color: var(--off-black);
+    padding: 0 1rem;
+    border-radius: 8px;
+    border-left: 8px solid var(--primary-color);
+    flex: 1;
+    transition: 300ms ease-in;
+    cursor: pointer;
+}
+
+.stat-widget:hover {
+    transform: scale(1.02);
+}
+
+.stat-widget p {
+    color: var(--light-text);
+    margin-bottom: 1.2rem;
+}
+
+.big-stat {
+    line-height: 0.8;
+    font-size: 3rem;
+}

@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import "../src/App.css"
-import Home from "./components/home/Home";
+import Home from "./components/page-home/home/Home";
 import Content from "./components/content/Content";
-import ProfilePage from "./components/profile-page/ProfilePage";
-import IntroductionToPHP from "./components/lessons/introduction-to-php/IntroductionToPHP";
-import CoursesPage from "./components/courses-page/CoursesPage";
+import ProfilePage from "./components/page-profile/ProfilePage";
+import IntroductionToPHP from "./components/utils/lessons/introduction-to-php/IntroductionToPHP";
+import CoursesPage from "./components/page-courses/courses-page/CoursesPage";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<BrowserRouter>

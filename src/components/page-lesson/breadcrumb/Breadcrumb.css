@@ -1,0 +1,10 @@
+.breadcrumbs a {
+    color: var(--white);
+    margin: 0 0.2rem;
+}
+
+.breadcrumbs-subtopic {
+    font-size: 0.8rem;
+    color: var(--light-gray);
+    margin: 0 0.2rem;
+}

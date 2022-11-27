@@ -9,11 +9,11 @@ body, html {
 a {
     text-decoration: none;
     margin: 0.08rem 0;
-    color: #dcdcdc;
+    color: var(--white);
 }
 
 a:hover {
-    color: #7a7a7a;
+    color: var(--light-text);
 }
 
 * {
@@ -40,8 +40,8 @@ h3 {
     font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6, p, span {
-    color: #2c2c2c;
+h1, h2, h3, h4, h5, h6, p, span, div {
+    color: var(--light-text);
     line-height: 1.5;
 }
 
@@ -55,18 +55,18 @@ input {
 }
 
 :root {
-    --primary-color: #282b33;
+    --primary-color: #2eade0;
+    --go-pro: #e85c11;
 
-    --white: #efefef;
-    --black: #1c1c1c;
-    --dark-gray: #232323;
-    --superlight-gray: #e5e5e5;
-    --light-gray: #c9c9c9;
-    --light-text: #4b4b4b;
-    --divider: #cccccc;
+    --black: #181818;
+    --off-black: #1f1f1f;
+    --superdark-gray: #2c2c2c;
+    --dark-grey: #3a3a3a;
+    --white: #ffffff;
+    --light-text: #cccccc;
+    --light-gray: #bbbbbb;
 
     --php-color: #5DD7C1;
-    --tip: #3d3e4d;
     --info: #FFBD13;
     --error: #E55353;
     --horray: #40CC45;
@@ -79,12 +79,12 @@ input {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #484848;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #b0b0b0;
+    background: #797979;
 }
 
 /* Handle on hover */

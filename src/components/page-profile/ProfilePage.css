@@ -1,0 +1,29 @@
+.profile-page-stats-widgets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.profile-field {
+    max-width: 50rem;
+    margin: 2rem 0;
+}
+
+.profile-field input, .profile-field textarea {
+    padding: 0.8rem 1rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0.4rem -0.2rem;
+    border-radius: 8px;
+    border: 1px solid #e3e3e3;
+    background-color: var(--superdark-gray);
+    color: var(--light-text);
+}
+
+.profile-field textarea {
+    height: 8rem;
+    resize: none;
+    outline: none;
+}
