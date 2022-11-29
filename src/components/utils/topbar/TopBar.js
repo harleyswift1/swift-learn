@@ -16,7 +16,7 @@ export default function TopBar() {
         }
     }
 
-    return (<div>
+    return (<>
         {/*collapsed*/}
         <nav className={"mobile-view"}>
             <div className={"titlebar-header"}>
@@ -51,6 +51,6 @@ export default function TopBar() {
             </div>
             <ProfileItems/>
         </nav>
-    </div>)
+    </>)
 
 }

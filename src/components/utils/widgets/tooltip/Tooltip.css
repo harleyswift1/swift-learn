@@ -1,7 +1,7 @@
 .tooltip {
     width: 100%;
     padding: 0.8rem 0.2rem 0.2rem 1rem;
-    border-radius: 8px;
+    border-radius: 6px;
     background-color: var(--black);
     margin: 1.4rem 0;
 }

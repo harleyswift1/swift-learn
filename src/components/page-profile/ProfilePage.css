@@ -16,7 +16,7 @@
     width: 100%;
     font-size: 1rem;
     margin: 0.4rem -0.2rem;
-    border-radius: 8px;
+    border-radius: 6px;
     border: 1px solid #e3e3e3;
     background-color: var(--superdark-gray);
     color: var(--light-text);

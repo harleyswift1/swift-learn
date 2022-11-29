@@ -1,5 +1,5 @@
 .button {
-    border-radius: 8px;
+    border-radius: 6px;
     background-color: var(--white);
     outline: none;
     border: none;
@@ -9,7 +9,7 @@
     font-size: 0.85rem;
     color: var(--primary-color);
     align-items: center;
-    padding: 0.7rem 1rem;
+    padding: 0.7rem 1.4rem;
     white-space: nowrap;
 }
 

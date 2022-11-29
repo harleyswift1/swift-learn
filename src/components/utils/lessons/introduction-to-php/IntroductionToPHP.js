@@ -13,8 +13,8 @@ export default function IntroductionToPHP() {
     return (<div className={"main-component"}>
         <div>
             <Breadcrumb topic={"Basics"} subtopic={"Introduction to PHP"}/>
-            <h1>PHP Variables</h1>
-            <h3 id={"header-1"}>Introduction</h3>
+            <h1>Introduction to PHP</h1>
+            <h3 id={"header-1"}>What is PHP?</h3>
             <p>PHP is a general-purpose scripting for the scripting of web developments.
                 It was originally produced in 1994 by Rasmus Lerdorf, a Danish Canadian
                 programmer. The PHP Group is now producing the PHP reference implementation.
@@ -46,7 +46,7 @@ export default function IntroductionToPHP() {
             </div>
         </div>
         <div className="widgets-container">
-            <Contents items={["Introduction", "How is PHP written?", "Congratulations!"]} hrefs={["header-1", "header-2", "header-3"]}/>
+            <Contents items={["What is PHP?", "How is PHP written?", "Congratulations!"]} hrefs={["header-1", "header-2", "header-3"]}/>
             <AdvertWidget/>
         </div>
     </div>)

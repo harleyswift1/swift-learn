@@ -3,7 +3,6 @@
 }
 
 .main {
-    overflow: scroll;
     max-height: 100vh;
     overflow-x: hidden;
     flex: 6;

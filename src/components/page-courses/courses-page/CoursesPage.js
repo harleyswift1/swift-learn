@@ -6,7 +6,7 @@ export default function CoursesPage() {
     return (<div className="main-component">
         <main>
             <div className="lessons-header">
-                <h2>Select your course</h2>
+                <h3>Select your course</h3>
                 <p>Chose from one of our many courses below. Theres one for every topic, so take your pick!</p>
             </div>
            <h3>Basics</h3>

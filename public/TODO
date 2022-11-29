@@ -1,15 +1,18 @@
+Required:
 - Create base "challenge" page
 - Create some challenges
 - Implement user auth with accounts
 - Link challenges with account so you can earn trophies
-- Make it where you can click a sidebar category and it will open a new page with widgets to the subcategories
-- Make breadcrumbs work so you can click the category and it will take y ou to the subcategories page
-- Next page buttons work
 - Finish all courses pages
 - Design and do footer
 - Turn course data into MySQL Database
-- Redo courses page (it's ugly asf)
+
+Later on down the line:
+- Create a blog page and make some blogs about designing and making websites
+- Add toggle dark/light theme option in header
+- Create leaderboard for points
+- Make Pro membership actually functional
 
 
 DOING NOW:
-- Redo home page hero
+- Redo courses page (it's ugly asf)

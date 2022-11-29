@@ -4,7 +4,7 @@
     color: var(--white);
     background-color: var(--dark-grey);
     border-left: 8px solid var(--primary-color);
-    border-radius: 8px;
+    border-radius: 6px;
     margin: 2rem 0;
 }
 

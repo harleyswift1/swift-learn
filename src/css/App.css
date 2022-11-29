@@ -8,7 +8,6 @@ body, html {
 
 a {
     text-decoration: none;
-    margin: 0.08rem 0;
     color: var(--white);
 }
 
@@ -18,10 +17,6 @@ a:hover {
 
 * {
     box-sizing: border-box;
-}
-
-p {
-    margin: 0.8rem 0;
 }
 
 h1 {
@@ -40,17 +35,18 @@ h3 {
     font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6, p, span, div {
+p, span, div {
     color: var(--light-text);
     line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
+    color: var(--white);
+
 }
 
 input {
-    border: none;
     outline: none;
 }
 

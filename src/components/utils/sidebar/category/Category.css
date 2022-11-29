@@ -4,16 +4,16 @@
 
 .category-title {
     font-size: 1.4rem;
-    color: var(--light-text);
+    color: var(--white);
 }
 
 .category-subtitle {
-    color: var(--white);
+    color: var(--light-text);
     padding-left: 0.4rem;
     display: block;
     margin: 0.4rem 0;
 }
 
 .active {
-    font-weight: bold;
+    color: var(--primary-color);
 }

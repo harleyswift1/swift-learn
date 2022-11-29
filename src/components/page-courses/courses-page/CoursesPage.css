@@ -1,5 +1,9 @@
+.lessons-header {
+    margin-bottom: 2rem;
+}
+
 .lessons-header p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .lesson-widgets-container {
