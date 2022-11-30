@@ -3,9 +3,9 @@ import trophy_icon from "../../../../assets/icons/trophy-icon.png";
 import profile_picture from "../../../../assets/icons/profile-picture.png";
 
 export default function ProfileItems() {
-    function handleClick() {
-        alert("This feature is coming soon!");
-    }
+    // function handleClick() {
+    //     alert("This feature is coming soon!");
+    // }
 
     return (<div className="profile-items">
         {/*<div onClick={handleClick}><Button color={"var(--go-pro)"} text={"Go Pro"}/></div>*/}
