@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import "./css/App.css"
 import "./css/keyframes.css";
-import Home from "./components/page-home/home/Home";
+import Home from "./components/page-home/Home";
 import Content from "./components/content/Content";
 import ProfilePage from "./components/page-profile/ProfilePage";
 import IntroductionToPHP from "./components/utils/lessons/introduction-to-php/IntroductionToPHP";

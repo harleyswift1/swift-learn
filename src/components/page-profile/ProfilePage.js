@@ -1,6 +1,5 @@
 import "./ProfilePage.css"
 import StatWidget from "./stat-widget/StatWidget";
-import Divider from "../utils/reusable/Divider/Divider";
 import Button from "../utils/reusable/Button/Button";
 
 export default function ProfilePage() {
@@ -13,9 +12,8 @@ export default function ProfilePage() {
                 <StatWidget title={"Lessons completed"} bigStat={46} subStat={"/129"} description={"You have completed 46 lessons out of 129 total lessons!"}/>
                 <StatWidget title={"Challenges completed"} bigStat={12} subStat={"/53"} description={"You have completed 46 challenges out of 129 total challenges!"}/>
             </section>
-                <h3>Harley Swift</h3>
-                <p>Here you can edit your profile information and settings</p>
-                <Divider width={"52rem"} height={"1px"} margin={"2rem"}/>
+            <h3>Harley Swift</h3>
+            <p>Here you can edit your profile information and settings</p>
             <section className="profile-fields-section">
                 <div className="profile-field">
                     <h4>Username</h4>
@@ -38,7 +36,7 @@ export default function ProfilePage() {
                     <h4>Email Address</h4>
                     <input type="text" name={"email_input"} id={"settings_email_input"}/>
                 </div>
-                    <Button text={"Save"} bg={"var(--primary-color)"} color={"var(--black)"}/>
+                <Button text={"Save"} bg={"var(--primary-color)"} color={"var(--black)"}/>
             </section>
         </div>
     </div>)

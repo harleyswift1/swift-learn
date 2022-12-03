@@ -1,10 +1,11 @@
 import "./Home.css";
-import home_image from "../../../assets/images/hero-illustration.svg";
-import cloud from "../../../assets/images/cloud.png";
-import Button from "../../utils/reusable/Button/Button";
+import home_image from "../../assets/images/hero-illustration.svg";
+import cloud from "../../assets/images/cloud.png";
+import Button from "../utils/reusable/Button/Button";
 
 export default function Home() {
-    return (<div className={"home-page"}>
+    return (
+        <div className={"home-page"}>
         <img src={cloud} className={"cloud cloud-1"} alt=""/>
         <img src={cloud} className={"cloud cloud-2"} alt=""/>
         <section className="home-hero">

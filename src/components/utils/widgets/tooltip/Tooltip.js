@@ -6,12 +6,11 @@ export default function Tooltip(props) {
     const title = props.title;
     const content = props.content;
 
-    return(<div className={"tooltip type-" + type}>
+    return (<div className={"tooltip type-" + type}>
             <div className="tooltip-header">
                 <div><img src={icon} alt=""/></div>
                 <div><span>{title}</span></div>
             </div>
             <p>{content}</p>
-        </div>
-    )
+        </div>)
 }

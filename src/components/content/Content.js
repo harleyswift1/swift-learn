@@ -6,10 +6,10 @@ export default function Content(props) {
     const mainComponent = props.mainComponent;
 
     return (<div>
-        <TopBar/>
-        <div className="main">
-            <Sidebar/>
-            <>{mainComponent}</>
-        </div>
-    </div>)
+            <TopBar/>
+            <div className="main">
+                <Sidebar/>
+                <>{mainComponent}</>
+            </div>
+        </div>)
 }

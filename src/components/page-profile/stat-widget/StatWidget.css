@@ -3,7 +3,6 @@
     padding: 0 1rem;
     border-radius: 6px;
     border-left: 8px solid var(--primary-color);
-    flex: 1;
     transition: 300ms ease-in;
     cursor: pointer;
 }

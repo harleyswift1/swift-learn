@@ -7,13 +7,7 @@ export default function TopBar() {
     const [expanded, setExpanded] = useState(false);
 
     function handleClick() {
-        if (expanded) {
-            document.getElementById("expanded").classList.add("hidden");
-            setExpanded(false);
-        } else {
-            document.getElementById("expanded").classList.remove("hidden");
-            setExpanded(true);
-        }
+       setExpanded(!expanded);
     }
 
     return (<>
@@ -28,7 +22,7 @@ export default function TopBar() {
         </nav>
 
         {/*expanded*/}
-        <nav className={"expanded-content expanded hidden"} id={"expanded"}>
+        <nav className={`expanded-content expanded ${!expanded ? 'hidden' : ''}`} id={"expanded"}>
             <ul className={"nav-items"}>
                 <li><a href="home">Home</a></li>
                 <li><a href="courses">Courses</a></li>

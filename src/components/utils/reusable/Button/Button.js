@@ -7,6 +7,6 @@ export default function Button(props) {
     const icon = props.icon; // * required *, use "{}" to leave empty
     return (<button className="button" style={{backgroundColor: bg, color: color}}>
         <strong>{text}</strong>
-        {icon ?  <img src={icon} alt=""/> : ""}
+        {icon ? <img src={icon} alt=""/> : ""}
     </button>)
 }

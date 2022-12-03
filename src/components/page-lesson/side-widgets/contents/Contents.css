@@ -1,6 +1,6 @@
 .contents-widget {
     padding: 1rem;
-    border: 1px solid var(--white);
+    border: 1px solid var(--light-gray);
     color: var(--white);
     background-color: var(--dark-grey);
     border-left: 8px solid var(--primary-color);
@@ -13,7 +13,7 @@
     margin-bottom: 1rem;
 }
 
-.contents-widget-items span {
+.contents-widget-items a {
     cursor: pointer;
     display: block;
     color: var(--white);

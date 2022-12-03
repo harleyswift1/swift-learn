@@ -1,5 +1,4 @@
 import "./Contents.css"
-import Divider from "../../../utils/reusable/Divider/Divider";
 
 export default function Contents(props) {
     const items = props.items;
@@ -12,11 +11,10 @@ export default function Contents(props) {
 
     return (<div className="contents-widget">
         <div className={"contents-widget-header"}>Table of contents</div>
-        <Divider height={"1px"} width={"80%"} color={"#cccccc"}/>
 
         <div className="contents-widget-items">
             {items.map((item, index) => {
-                return (<span onClick={() => handleClick(hrefs[index])}>{index + 1}. {item}</span>)
+                return (<a tabIndex={0} onClick={() => handleClick(hrefs[index])}>{index + 1}. {item}</a>)
             })}
         </div>
     </div>)

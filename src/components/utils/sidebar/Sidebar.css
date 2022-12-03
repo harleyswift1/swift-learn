@@ -1,10 +1,33 @@
 .sidebar {
-    background-color: var(--off-black);
     padding: 1rem;
+    background-color: var(--off-black);
+    height: calc(100vh - 72px);
     overflow-y: scroll;
-    flex: 1;
+}
+
+.sidebar_open {
+    width: 20rem;
+}
+
+.sidebar_closed {
+    min-width: 4rem;
+    padding: 1rem;
+}
+
+.sidebar i {
+    float: right;
+    cursor: pointer;
+    padding: 0.2rem;
+    font-size: 1.4rem;
 }
 
 .sidebar-header {
     font-size: 1.35rem;
+}
+
+@media all and (max-width: 800px) {
+    .sidebar {
+        position: fixed;
+        left: 0;
+    }
 }

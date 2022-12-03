@@ -6,15 +6,17 @@ export default function PHPCode(props) {
     const content = props.content;
 
     return (<div className={"php-code-widget"}>
-            <div className={"php-code-widget-top"}>
-                <div className="tooltip-header">
-                    <div><img src={php_icon} alt="php code"/></div>
-                    <div><span>PHP</span></div>
-                </div>
-                <p>{description}</p>
+        <div className={"php-code-widget-top"}>
+            <div className="tooltip-header">
+                <div><img src={php_icon} alt="php code"/></div>
+                <div><span>PHP</span></div>
             </div>
-            <div className="php-code">
-                <code><pre>{content}</pre></code>
-            </div>
-        </div>)
+            <p>{description}</p>
+        </div>
+        <div className="php-code">
+            <code>
+                <pre>{content}</pre>
+            </code>
+        </div>
+    </div>)
 }
