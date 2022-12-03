@@ -1,8 +1,38 @@
-.content {
-    display: flex;
-    flex-direction: column;
-}
-
 .main {
     display: flex;
+    background-color: var(--superdark-gray);
+    /*100vh minus the height of the Navbar*/
+    max-height: calc(100vh - 72px);
+}
+
+.main-component {
+    display: flex;
+    flex: 6;
+    padding: 4rem;
+    overflow-y: scroll;
+    column-gap: 8rem;
+}
+
+.page-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.widgets-container {
+    max-width: 20rem;
+    flex-wrap: wrap;
+}
+
+@media all and (max-width: 1200px) {
+    .sidebar {
+        display: none;
+    }
+
+    .main-component {
+        flex-direction: column;
+    }
+
+    .widgets-container {
+        max-width: 100%;
+    }
 }

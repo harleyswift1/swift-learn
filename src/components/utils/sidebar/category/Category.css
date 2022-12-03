@@ -1,0 +1,19 @@
+.category {
+    margin: 1rem 0;
+}
+
+.category-title {
+    font-size: 1.4rem;
+    color: var(--white);
+}
+
+.category-subtitle {
+    color: var(--light-text);
+    padding-left: 0.4rem;
+    display: block;
+    margin: 0.4rem 0;
+}
+
+.active {
+    color: var(--primary-color);
+}

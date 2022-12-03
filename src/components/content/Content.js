@@ -1,15 +1,15 @@
 import "./Content.css"
-import TopBar from "../topbar/TopBar";
-import Sidebar from "../sidebar/Sidebar";
-import LessonContent from "../lesson-content/LessonContent";
+import Sidebar from "../utils/sidebar/Sidebar";
+import TopBar from "../utils/topbar/TopBar";
 
 export default function Content(props) {
-    const lesson = props.lesson;
-    return (<div className={"content"}>
+    const mainComponent = props.mainComponent;
+
+    return (<div>
         <TopBar/>
         <div className="main">
             <Sidebar/>
-            <LessonContent lesson={lesson}/>
+            <>{mainComponent}</>
         </div>
     </div>)
 }

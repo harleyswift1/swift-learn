@@ -1,0 +1,10 @@
+.sidebar {
+    background-color: var(--off-black);
+    padding: 1rem;
+    overflow-y: scroll;
+    flex: 1;
+}
+
+.sidebar-header {
+    font-size: 1.35rem;
+}
