@@ -2,6 +2,7 @@
     border-radius: 6px;
     background-color: var(--black);
     margin: 1.4rem 0;
+    border: 1px solid var(--dark-grey);
     border-left: 8px solid var(--php-color);
 }
 

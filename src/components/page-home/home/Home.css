@@ -1,8 +1,9 @@
 .home-page {
     height: 100vh;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(70deg, var(--black) 60%, #2a2a2a 60%);
+    background: linear-gradient(70deg, var(--black) 68%, #2a2a2a 60%);
     overflow: hidden;
 }
 
@@ -10,9 +11,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 10rem;
-    height: 100%;
-    margin: 0 4rem;
+    column-gap: 14rem;
+    height: 50rem;
 }
 
 .hero-content {
@@ -27,7 +27,7 @@
 }
 
 .hero-image {
-    height: 38rem;
+    height: 34rem;
     width: auto;
 }
 
@@ -47,25 +47,22 @@
 }
 
 .cloud {
-    height: 10rem;
     width: auto;
     position: fixed;
     animation: float 3s infinite;
 }
 
 .cloud-1 {
-    left: 190px;
+    left: 380px;
     top: 130px;
     animation-delay: 0.4s;
 }
 
 .cloud-2 {
     left: 700px;
-    top: 700px;
+    bottom: 50px;
     height: 9rem;
 }
-
-
 
 h1 .highlight, p .highlight {
     color: var(--primary-color);

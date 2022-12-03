@@ -14,11 +14,11 @@ root.render(<BrowserRouter>
     <Routes>
 
         {/*base routes*/}
-        <Route path="/" element={<Home/>}/>
-        <Route path="*" element={<Home/>}/>
-        <Route index element={<Home/>}/>
-        <Route path="home" element={<Home/>}/>
-        <Route path="challenges" element={<Home/>}/>
+        <Route path="/" element={<Content mainComponent={<Home/>}/>}/>
+        <Route path="*" element={<Content mainComponent={<Home/>}/>}/>
+        <Route index element={<Content mainComponent={<Home/>}/>}/>
+        <Route path="home" element={<Content mainComponent={<Home/>}/>}/>
+        <Route path="challenges" element={<Content mainComponent={<Home/>}/>}/>
         <Route path="profile" element={<Content mainComponent={<ProfilePage/>}/>}/>
         <Route path="courses" element={<Content mainComponent={<CoursesPage/>}/>}/>
 

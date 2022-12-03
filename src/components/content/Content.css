@@ -1,18 +1,15 @@
-.content {
-    display: flex;
-}
-
 .main {
-    max-height: 100vh;
-    overflow-x: hidden;
-    flex: 6;
+    display: flex;
     background-color: var(--superdark-gray);
+    /*100vh minus the height of the Navbar*/
+    max-height: calc(100vh - 72px);
 }
 
 .main-component {
     display: flex;
+    flex: 6;
     padding: 4rem;
-    margin-bottom: 50rem;
+    overflow-y: scroll;
     column-gap: 8rem;
 }
 

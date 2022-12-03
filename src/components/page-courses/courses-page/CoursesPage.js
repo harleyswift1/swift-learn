@@ -7,9 +7,9 @@ export default function CoursesPage() {
         <main>
             <div className="lessons-header">
                 <h3>Select your course</h3>
-                <p>Chose from one of our many courses below. Theres one for every topic, so take your pick!</p>
+                <p>From the dead basics, all the way to advanced. There's a course here that suits everyone no matter your skill level. Take your pick and start learning a new element of PHP!</p>
             </div>
-           <h3>Basics</h3>
+           <h2>Basics</h2>
             <div className="lesson-widgets-container">
                 <LessonWidget url={"introduction-to-php"} title={"Introduction to PHP"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolorum."}/>
                 <LessonWidget url={"getting-started"} title={"Getting Started"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolorum."}/>
