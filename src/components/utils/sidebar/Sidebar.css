@@ -3,6 +3,8 @@
     background-color: var(--off-black);
     overflow-y: scroll;
     max-height: 100vh;
+    transition: width 0.3s;
+    -webkit-transition: width 0.3s;
 }
 
 .sidebar_open {
@@ -10,7 +12,7 @@
 }
 
 .sidebar_closed {
-    min-width: 4rem;
+    width: 4rem;
     padding: 1rem;
 }
 
@@ -21,17 +23,11 @@
     font-size: 1.4rem;
 }
 
-.sidebar-header {
-    font-size: 1.35rem;
-}
-
 @media all and (max-width: 800px) {
     .sidebar {
         position: fixed;
         overflow: hidden;
         z-index: 99;
-        background-color: var(--black);
-        margin-top: 3.85rem;
+        margin-top: 3.80rem;
     }
-
 }

@@ -15,14 +15,13 @@
     display: flex;
     padding: 2.2rem 4rem 4rem;
     overflow-y: scroll;
-    column-gap: 8rem;
+    column-gap: 4rem;
     width: 100%;
 }
 
 .page-buttons {
     display: flex;
     justify-content: space-between;
-
     /* Create empty space */
     padding-bottom: 10rem;
 }

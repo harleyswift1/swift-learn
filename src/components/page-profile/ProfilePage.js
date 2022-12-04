@@ -14,7 +14,7 @@ export default function ProfilePage() {
             </section>
             <h3>Harley Swift</h3>
             <p>Here you can edit your profile information and settings</p>
-            <section className="profile-fields-section">
+            <section>
                 <div className="profile-field">
                     <h4>Username</h4>
                     <input type="text" name={"username_input"} id={"settings_username_input"}/>

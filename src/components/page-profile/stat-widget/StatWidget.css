@@ -12,6 +12,7 @@
 }
 
 .stat-widget p {
+    max-width: 17rem;
     color: var(--light-text);
     margin-bottom: 1.2rem;
 }

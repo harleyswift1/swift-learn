@@ -52,7 +52,6 @@ nav {
     .mobile-view {
         display: flex;
         justify-content: space-between;
-        border-bottom: 1px solid grey;
     }
 
 }
