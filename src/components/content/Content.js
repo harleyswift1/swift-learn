@@ -5,11 +5,11 @@ import TopBar from "../utils/topbar/TopBar";
 export default function Content(props) {
     const mainComponent = props.mainComponent;
 
-    return (<div>
+    return (<div className={"content"}>
+        <Sidebar/>
+        <div className="main">
             <TopBar/>
-            <div className="main">
-                <Sidebar/>
-                <>{mainComponent}</>
-            </div>
-        </div>)
+            <>{mainComponent}</>
+        </div>
+    </div>)
 }

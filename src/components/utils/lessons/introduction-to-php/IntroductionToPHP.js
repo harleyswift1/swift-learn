@@ -1,7 +1,6 @@
 import Breadcrumb from "../../../page-lesson/breadcrumb/Breadcrumb";
 import Tooltip from "../../widgets/tooltip/Tooltip";
 import Button from "../../reusable/Button/Button";
-import tip_icon from "../../../../assets/icons/tip-icon.svg"
 import PHPCode from "../../widgets/php/PHPCode";
 import Contents from "../../../page-lesson/side-widgets/contents/Contents";
 import AdvertWidget from "../../../page-lesson/side-widgets/advert/AdvertWidget";
@@ -20,7 +19,7 @@ export default function IntroductionToPHP() {
                 programmer. The PHP Group is now producing the PHP reference implementation.
                 PHP used to stand for Personal Home Page, now it stands for Hypertext
                 Preprocessor</p>
-            <Tooltip type={"tip"} icon={tip_icon} title={"Tip"} content={"PHP is similar to JavaScript, although instead of running on the client-side, it runs on server-side"}/>
+            <Tooltip type={"tip"} icon={"fa-regular fa-lightbulb"} title={"Tip"} content={"PHP is similar to JavaScript, although instead of running on the client-side, it runs on server-side"}/>
             <p>Similar to other programming languages such as Java, JavaScript and C#, PHP is an
                 object-orientated programming language. This means that the structure of PHP is
                 based on the four pillars (Abstraction, Encapsulation, Inheritance and Polymorphism). </p>

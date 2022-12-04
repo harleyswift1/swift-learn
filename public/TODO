@@ -1,13 +1,10 @@
 Required:
-- Create base "challenge" page
 - Create some challenges
 - Implement user auth with accounts
 - Link challenges with account so you can earn trophies
 - Finish all courses pages
 - Design and do footer
 - Turn course data into MySQL Database
-- Turn icon pngs into fontawesome
-- Make sure I'm using React when I'm meant to
 
 Later on down the line:
 - Create a blog page and make some blogs about designing and making websites
@@ -15,5 +12,7 @@ Later on down the line:
 - Create leaderboard for points
 - Make Pro membership actually functional
 
+Known Bugs:
+- Navbar dissapears on my iOS Safari when clicking a href in the Page Contents
 
 DOING NOW:

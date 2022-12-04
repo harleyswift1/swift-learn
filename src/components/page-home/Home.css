@@ -1,7 +1,7 @@
 .home-page {
     background: linear-gradient(70deg, var(--black) 68%, #2a2a2a 60%);
     width: 100%;
-    height: calc(100vh - 72px);
+    height: calc(100vh - 74px);
 }
 
 .home-hero {
@@ -50,8 +50,8 @@
 }
 
 .cloud-1 {
-    left: 257px;
-    top: 130px;
+    left: 357px;
+    top: 110px;
     animation-delay: 0.4s;
 }
 
@@ -88,5 +88,11 @@ h1 .highlight, p .highlight {
 
     .home-page {
         background: var(--black);
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .home-hero {
+        padding: 2rem
     }
 }

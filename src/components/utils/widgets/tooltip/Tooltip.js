@@ -8,7 +8,7 @@ export default function Tooltip(props) {
 
     return (<div className={"tooltip type-" + type}>
             <div className="tooltip-header">
-                <div><img src={icon} alt=""/></div>
+                <div><i className={icon}></i></div>
                 <div><span>{title}</span></div>
             </div>
             <p>{content}</p>

@@ -1,15 +1,21 @@
+.content {
+    display: flex;
+}
+
 .main {
     display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    width: 100%;
     background-color: var(--superdark-gray);
     /*100vh minus the height of the Navbar*/
 }
 
 .main-component {
     display: flex;
-    padding: 2.2rem 6rem 6rem;
+    padding: 2.2rem 4rem 4rem;
     overflow-y: scroll;
     column-gap: 8rem;
-    height: calc(100vh - 72px);
     width: 100%;
 }
 
@@ -34,5 +40,11 @@
     .widgets-container {
         max-width: 100%;
     }
+}
 
+@media all and (max-width: 800px) {
+    .main-component {
+        flex-direction: column;
+        padding: 5rem 1.4rem 1.4rem;
+    }
 }

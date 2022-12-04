@@ -16,3 +16,7 @@
     color: var(--white);
     border-radius: 0 0 8px;
 }
+
+.fillprimary {
+    color: var(--php-color)
+}

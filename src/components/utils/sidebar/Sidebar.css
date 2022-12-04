@@ -1,8 +1,8 @@
 .sidebar {
     padding: 1rem;
     background-color: var(--off-black);
-    height: calc(100vh - 72px);
     overflow-y: scroll;
+    max-height: 100vh;
 }
 
 .sidebar_open {
@@ -28,6 +28,10 @@
 @media all and (max-width: 800px) {
     .sidebar {
         position: fixed;
-        left: 0;
+        overflow: hidden;
+        z-index: 99;
+        background-color: var(--black);
+        margin-top: 3.85rem;
     }
+
 }

@@ -1,7 +1,6 @@
 import "./TopBar.css"
 import ProfileItems from "./profile-items/ProfileItems";
 import {useState} from "react";
-import menu_icon from "../../../assets/icons/menu_icon.svg";
 
 export default function TopBar() {
     const [expanded, setExpanded] = useState(false);
@@ -18,17 +17,18 @@ export default function TopBar() {
                     <strong className={"logo"}>SWIFT</strong>
                 </a>
             </div>
-            <div onClick={handleClick}><img src={menu_icon} alt=""/></div>
+            <div onClick={handleClick}><i className="fa-solid fa-bars"></i></div>
         </nav>
 
         {/*expanded*/}
         <nav className={`expanded-content expanded ${!expanded ? 'hidden' : ''}`} id={"expanded"}>
+            <ProfileItems/>
             <ul className={"nav-items"}>
                 <li><a href="home">Home</a></li>
                 <li><a href="courses">Courses</a></li>
                 <li><a href="challenges">Challenges</a></li>
             </ul>
-            <ProfileItems/>
+
         </nav>
 
         {/*desktop*/}
