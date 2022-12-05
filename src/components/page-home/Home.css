@@ -1,31 +1,32 @@
 .home-page {
     background: linear-gradient(70deg, var(--black) 68%, #2a2a2a 60%);
-    width: 100%;
-    height: calc(100vh - 74px);
-}
-
-.home-hero {
+    height: 100vh;
     display: flex;
-    margin-top: 4rem;
     justify-content: center;
-    align-items: center;
-    column-gap: 14rem;
-    padding: 4rem
 }
 
 .hero-content {
+    max-width: 100rem;
+    display: flex;
+    margin: 0 6rem;
+    padding-left: 4rem;
+    justify-content: center;
+    align-items: center;
+    column-gap: 6rem;
+}
+
+.hero-text {
     max-width: 34rem;
     font-size: 1.3125rem;
 }
 
-.hero-content h1 {
+.hero-text h1 {
     font-size: 3.1875rem;
     font-weight: bold;
 }
 
 .hero-image {
-    height: 34rem;
-    width: auto;
+    height: 30rem;
 }
 
 .hero-image img {
@@ -50,15 +51,15 @@
 }
 
 .cloud-1 {
-    left: 357px;
+    left: 500px;
     top: 110px;
     animation-delay: 0.4s;
 }
 
 .cloud-2 {
-    left: 700px;
+    left: 900px;
     bottom: 50px;
-    height: 9rem;
+    height: 7rem;
 }
 
 h1 .highlight, p .highlight {
@@ -72,27 +73,16 @@ h1 .highlight, p .highlight {
     }
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 800px) {
     .cloud {
         display: none;
     }
 
-    .hero-content h1 {
+    .hero-text h1 {
         font-size: 2.4rem;
-        font-weight: bold;
-    }
-
-    .home-hero {
-        padding-left: 8rem;
     }
 
     .home-page {
         background: var(--black);
-    }
-}
-
-@media all and (max-width: 1200px) {
-    .home-hero {
-        padding: 2rem
     }
 }

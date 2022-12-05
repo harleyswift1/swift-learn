@@ -2,7 +2,10 @@ import "./ProfilePage.css"
 import StatWidget from "./stat-widget/StatWidget";
 import Button from "../utils/reusable/Button/Button";
 
+
+
 export default function ProfilePage() {
+
     return (<div className={"main-component"}>
         <div className="profile-page">
             <h1>Your Profile</h1>

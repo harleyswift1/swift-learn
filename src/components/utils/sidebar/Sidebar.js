@@ -1,20 +1,38 @@
 import "./Sidebar.css"
-import {useState} from "react";
+import {useCallback} from "react";
 import {courseData} from "../../../data/course_data";
 import Category from "./category/Category";
+import profile_picture from "../../../assets/icons/profile-picture.png";
 
-export default function Sidebar() {
-    const [opened, setOpen] = useState(localStorage.getItem('sidebar_opened') !== "false");
+export default function Sidebar(props) {
+    const handleToggle = useCallback(() => {
+        props.onSidebarToggle()
+    }, [props.toggled])
 
-    function handleClick() {
-        setOpen(!opened);
-        localStorage.setItem('sidebar_opened', JSON.stringify(!opened));
-    }
+    return (<div className={`sidebar ${props.toggled ? 'sidebar_open' : 'sidebar_closed'}`}>
+        <i onClick={handleToggle} className={`toggle-icon fa-solid fa-angles-${props.toggled ? 'left' : 'right'}`}></i>
+        <div className="sidebar-contents">
+            <div className={"sidebar-header"}>
+                <a href="home">
+                    <strong>SWIFT</strong>
+                </a>
+            </div>
 
-    return (<div id="sidebar"  className={`sidebar ${opened ? 'sidebar_open' : 'sidebar_closed'}`}>
-        <i onClick={handleClick} className={`fa-solid fa-angles-${opened ? 'left' : 'right'}`}></i>
-        {opened ? <div>
-            {Object.keys(courseData["course_data"]).map((key) => (<Category key={key} title={courseData["course_data"][key]["title"]} items={courseData["course_data"][key]["subcategories"]}/>))}
-        </div> : <div></div>}
+            <ul className={"nav-items"}>
+                <li><a href="home"><i className="fas fa-home"></i>Home</a></li>
+                <li><a href="courses"><i className="fa-solid fa-lines-leaning"></i> Courses</a></li>
+                <li><a href="challenges"><i className="fa-regular fa-lightbulb"></i> Challenges</a></li>
+            </ul>
+
+            {/*<div className="trophy-container">*/}
+            {/*    <i className="fa-solid fa-trophy"></i>*/}
+            {/*    <span>246</span>*/}
+            {/*</div>*/}
+            {/*<a href="profile"><img src={profile_picture} alt="profile"/></a>*/}
+
+            {props.toggled ? <div>
+                {Object.keys(courseData["course_data"]).map((key) => (<Category key={key} title={courseData["course_data"][key]["title"]} items={courseData["course_data"][key]["subcategories"]}/>))}
+            </div> : <div></div>}
+        </div>
     </div>)
 }
