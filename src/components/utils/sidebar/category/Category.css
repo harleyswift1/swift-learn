@@ -18,6 +18,6 @@
     color: white;
 }
 
-.active {
+.active, .active i {
     color: var(--primary-color);
 }

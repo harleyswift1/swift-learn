@@ -1,3 +1,7 @@
+.courses-page h2 {
+    margin-bottom: 1rem;
+}
+
 .lessons-header {
     margin-bottom: 1rem;
     max-width: 50rem;
@@ -9,7 +13,7 @@
 
 .lesson-widgets-container {
     display: flex;
-    flex-direction: column;
-    max-width: 50rem;
+    flex-wrap: wrap;
     margin: 0 0 4rem;
+    gap: 1.4rem;
 }

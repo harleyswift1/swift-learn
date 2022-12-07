@@ -21,10 +21,6 @@ a {
     color: var(--white);
 }
 
-a:hover {
-    color: var(--light-text);
-}
-
 * {
     box-sizing: border-box;
 }
@@ -66,8 +62,9 @@ input {
 
     --black: #181818;
     --off-black: #1f1f1f;
-    --superdark-gray: #2c2c2c;
-    --dark-grey: #3a3a3a;
+    --superdark-gray: #2a2a2a;
+    --darker-grey: #333333;
+    --dark-grey: #494949;
     --white: #ffffff;
     --light-text: #cccccc;
     --light-gray: #bbbbbb;

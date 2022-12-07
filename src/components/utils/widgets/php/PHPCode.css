@@ -4,6 +4,8 @@
     margin: 1.4rem 0;
     border: 1px solid var(--dark-grey);
     border-left: 8px solid var(--php-color);
+    transition: 100ms ease-in-out;
+    cursor: pointer;
 }
 
 .php-code-widget-top {
@@ -19,4 +21,9 @@
 
 .fillprimary {
     color: var(--php-color)
+}
+
+
+.php-code-widget:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }

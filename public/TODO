@@ -1,17 +1,17 @@
 Required:
 - Create some challenges
 - Implement user auth with accounts
-- Link challenges with account so you can earn trophies
 - Finish all courses pages
 - Design and do footer
 - Turn course data into MySQL Database
 - Create profile popout when you click the profile icon
 - Create trophy popout when you click the trophy icon
-- Add writeup popup when you open the page for the first time
-- Make sure entire course widget is clickable
+- Make login page
+- Make register page
+- Create custom <noscript> page
+- Sort CSS out so we dont reuse the <nav> tags on the sidebar with open/closed
 - Maybe add some "popular" lessons widgets on the home page or add something
   else to make it look a bit more full (maybe even add some more content as you scroll down)
-- Add some stuff on the closed sidebar to make it look less empty
 
 Later on down the line:
 - Create a blog page and make some blogs about designing and making websites
@@ -22,3 +22,4 @@ Later on down the line:
 Known Bugs:
 
 DOING NOW:
+- Add some stuff on the closed sidebar to make it look less empty

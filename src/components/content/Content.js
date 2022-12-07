@@ -1,6 +1,7 @@
 import "./Content.css"
 import Sidebar from "../utils/sidebar/Sidebar";
 import {useState} from "react";
+import MainPopup from "../utils/popup/MainPopup";
 
 export default function Content(props) {
     const mainComponent = props.mainComponent;
@@ -21,7 +22,10 @@ export default function Content(props) {
     }
 
     return (<div className="content">
-        <Sidebar toggled={opened} onSidebarToggle={handleToggle}/>
+        <Sidebar page={window.location.pathname} toggled={opened} onSidebarToggle={handleToggle}/>
         <section onTouchEnd={handleClose}>{mainComponent}</section>
+
+        {/*Other components to be rendered*/}
+        <MainPopup />
     </div>)
 }

@@ -1,12 +1,15 @@
 import "./LessonWidget.css";
+import book_icon from "../../../../assets/icons/book_icon.png";
 
 export default function LessonWidget(props) {
-    return (<div className="lesson-widget"><a href={props.url}>
-
-        <div className={"lesson-widget-header"}><strong>{props.title}</strong>
-            <div><i className="fa-solid fa-arrow-up-right-from-square"></i></div>
+    return (<a href={props.url} className="lesson-widget">
+        <div className="lesson-widget-content">
+            <img src={book_icon} alt=""/>
+            <strong className={"lesson-widget-header"}>{props.title}</strong>
+            <span><p>{props.description}</p></span>
         </div>
-        <span><p>{props.description}</p></span>
-
-    </a></div>)
+        <div className="lesson-widget-button">
+            LEARN
+        </div>
+    </a>)
 }

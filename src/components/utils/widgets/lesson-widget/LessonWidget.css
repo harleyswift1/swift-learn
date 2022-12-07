@@ -1,26 +1,47 @@
 .lesson-widget {
+    height: 22rem;
+    width: 18rem;
     background-color: var(--off-black);
-    border: 1px solid var(--dark-grey);
-    margin: 0.8rem 0;
-    padding: 1rem;
     border-radius: 8px;
-    transition: 300ms ease-in-out;
-    border-left: 8px solid var(--primary-color);
-}
-
-.lesson-widget-header {
-    display: flex;
-    column-gap: 1rem;
-    align-items: center;
-    font-size: 1.2rem;
-    color: var(--white);
-}
-
-.lesson-widget p {
-    padding: 0;
-    margin: 0.4rem 0;
+    transition: 100ms ease-in-out;
+    border: 1px solid var(--dark-grey);
+    border-top: 8px solid var(--primary-color);
 }
 
 .lesson-widget:hover {
-    transform: scale(1.02);
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.lesson-widget-content {
+    padding: 3rem 2rem;
+    color: var(--white);
+}
+
+.lesson-widget-button {
+    background-color: var(--black);
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 1.2rem;
+    height: 3.765rem;
+}
+
+.lesson-widget img {
+    width: 32px;
+    display: inline-block;
+    margin-bottom: 0.6rem;
+}
+
+.lesson-widget-header {
+    display: block;
+    font-size: 1.4rem;
+}
+
+@media all and (max-width: 1400px) {
+    .lesson-widget-content {
+        padding: 2rem 1rem;
+    }
 }

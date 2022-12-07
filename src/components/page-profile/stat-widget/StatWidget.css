@@ -3,12 +3,12 @@
     padding: 0 1rem;
     border-radius: 6px;
     border-left: 8px solid var(--primary-color);
-    transition: 300ms ease-in;
+    transition: 100ms ease-in;
     cursor: pointer;
 }
 
 .stat-widget:hover {
-    transform: scale(1.02);
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
 .stat-widget p {
