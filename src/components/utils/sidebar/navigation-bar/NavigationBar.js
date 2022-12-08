@@ -1,6 +1,6 @@
 import "./NavigationBar.css"
 
-export default function () {
+export default function NavigationBar() {
     const page = window.location.pathname;
     return (<div className="sidebar_nav">
         <span className={"hide_on_sidebar_closed"}>Menu</span>
