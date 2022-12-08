@@ -22,6 +22,8 @@ a {
 }
 
 * {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
     box-sizing: border-box;
 }
 
@@ -41,14 +43,14 @@ h3 {
     font-weight: 400;
 }
 
-p, span, div {
+p {
     color: var(--light-text);
     line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, span, div {
     margin: 0;
-    color: var(--white);
+    color: var(--off-white);
 
 }
 
@@ -57,17 +59,18 @@ input {
 }
 
 :root {
-    --primary-color: #2eade0;
+    --primary-color: #7f92ff;
     --go-pro: #e85c11;
 
-    --black: #181818;
-    --off-black: #1f1f1f;
-    --superdark-gray: #2a2a2a;
-    --darker-grey: #333333;
-    --dark-grey: #494949;
+    --black: #0E1013;
+    --off-black: #17181B;
+    --superdark-grey: #202124;
+    --darker-grey: #282A2D;
+    --dark-grey: #2E3134;
+    --light-text: #BDC1C6;
+    --light-grey: #F1F3F4;
+    --off-white: #F8F9FA;
     --white: #ffffff;
-    --light-text: #cccccc;
-    --light-gray: #bbbbbb;
 
     --php-color: #5DD7C1;
     --info: #FFBD13;
@@ -93,4 +96,18 @@ input {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #8d8d8d;
+}
+
+.active * {
+    color: var(--primary-color);
+}
+
+.rotate180 {
+    transform: rotate(180deg);
+}
+
+.divider {
+    width: 100%;
+    border-top: 1px solid grey;
+    border-radius: 8px;
 }

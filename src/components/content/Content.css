@@ -1,7 +1,7 @@
 .content {
     display: flex;
     width: 100%;
-    background-color: var(--superdark-gray);
+    background-color: var(--superdark-grey);
 }
 
 .content > section {

@@ -1,6 +1,6 @@
 .contents-widget {
     padding: 1rem;
-    border: 1px solid var(--light-gray);
+    border: 1px solid var(--light-grey);
     color: var(--white);
     background-color: var(--off-black);
     border-left: 8px solid var(--primary-color);

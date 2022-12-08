@@ -17,8 +17,8 @@
     font-size: 1rem;
     margin: 0.4rem -0.2rem;
     border-radius: 6px;
-    border: 1px solid var(--light-gray);
-    background-color: var(--superdark-gray);
+    border: 1px solid var(--light-grey);
+    background-color: var(--superdark-grey);
     color: var(--light-text);
 }
 

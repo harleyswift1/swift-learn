@@ -22,7 +22,7 @@ export default function Content(props) {
     }
 
     return (<div className="content">
-        <Sidebar page={window.location.pathname} toggled={opened} onSidebarToggle={handleToggle}/>
+        <Sidebar toggled={opened} onSidebarToggle={handleToggle}/>
         <section onTouchEnd={handleClose}>{mainComponent}</section>
 
         {/*Other components to be rendered*/}
