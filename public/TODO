@@ -9,7 +9,6 @@ Required:
 - Make login page
 - Make register page
 - Create custom <noscript> page
-- Sort CSS out so we dont reuse the <nav> tags on the sidebar with open/closed
 - Maybe add some "popular" lessons widgets on the home page or add something
   else to make it look a bit more full (maybe even add some more content as you scroll down)
 
