@@ -12,8 +12,9 @@ Required:
   else to make it look a bit more full (maybe even add some more content as you scroll down)
 
 Later on down the line:
+- Make it so you dont have to specify next and previous page, so it does it automatically
 - Create a blog page and make some blogs about designing and making websites
-- Add toggle dark/light theme option in header
+- Add toggle dark/light theme option in sidebar
 - Create leaderboard for points
 - Make Pro membership actually functional
 

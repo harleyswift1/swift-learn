@@ -6,7 +6,7 @@ export default function Category(props) {
     return (<div className="category">
         <Link to="/courses"><span className="category-title">{title}</span></Link>
         {items.map((item) => (<NavLink className={((navData) => navData.isActive ? "active" : "") + " category-subtitle"}
-                                 to={item.replaceAll(" ", "-").toLowerCase()}
+                                 to={"/lesson/" + item.replaceAll(" ", "-").toLowerCase()}
                                  key={item}>
             {item}
         </NavLink>))}

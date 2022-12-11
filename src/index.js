@@ -8,9 +8,11 @@ import ProfilePage from "./components/page-profile/ProfilePage";
 import CoursesPage from "./components/page-courses/CoursesPage";
 import WriteupPage from "./components/page-writeup/WriteupPage";
 import AuthPage from "./components/page-auth/AuthPage";
-import IntroductionToPHP from "./components/utils/lessons/introduction-to-php/IntroductionToPHP";
+import LessonIntroductionToPHP from "./components/utils/lessons/introduction-to-php/LessonIntroductionToPHP";
 import MainPopup from "./components/utils/popup/MainPopup";
 import Sidebar from "./components/utils/sidebar/Sidebar";
+import LessonHowItWorks from "./components/utils/lessons/how-it-works/LessonHowItWorks";
+import LessonSyntax from "./components/utils/lessons/syntax/LessonSyntax";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<BrowserRouter>
@@ -31,20 +33,20 @@ root.render(<BrowserRouter>
             {/*lesson routes*/}
 
             {/*Basics*/}
-            <Route path="introduction-to-php" element={<IntroductionToPHP/>}/>
-            <Route path="getting-started" element={<IntroductionToPHP/>}/>
-            <Route path="how-it-works" element={<IntroductionToPHP/>}/>
-            <Route path="syntax" element={<IntroductionToPHP/>}/>
-            <Route path="echo-(print)" element={<IntroductionToPHP/>}/>
-            <Route path="php-variables" element={<IntroductionToPHP/>}/>
-            <Route path="comments-in-php" element={<IntroductionToPHP/>}/>
+
+            <Route path="lesson/introduction-to-php" element={<LessonIntroductionToPHP/>}/>
+            <Route path="lesson/how-it-works" element={<LessonHowItWorks/>}/>
+            <Route path="lesson/syntax" element={<LessonSyntax/>}/>
+            <Route path="lesson/echo-(print)" element={<LessonIntroductionToPHP/>}/>
+            <Route path="lesson/php-variables" element={<LessonIntroductionToPHP/>}/>
+            <Route path="lesson/comments-in-php" element={<LessonIntroductionToPHP/>}/>
 
             {/*Data Types*/}
-            <Route path="introduction" element={<IntroductionToPHP/>}/>
-            <Route path="string" element={<IntroductionToPHP/>}/>
-            <Route path="integer" element={<IntroductionToPHP/>}/>
-            <Route path="boolean" element={<IntroductionToPHP/>}/>
-            <Route path="float" element={<IntroductionToPHP/>}/>
+            <Route path="lesson/introduction" element={<LessonIntroductionToPHP/>}/>
+            <Route path="lesson/string" element={<LessonIntroductionToPHP/>}/>
+            <Route path="lesson/integer" element={<LessonIntroductionToPHP/>}/>
+            <Route path="lesson/boolean" element={<LessonIntroductionToPHP/>}/>
+            <Route path="lesson/float" element={<LessonIntroductionToPHP/>}/>
         </Route>
     </Routes>
 </BrowserRouter>);

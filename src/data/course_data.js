@@ -1,7 +1,7 @@
 export const courseData = {
     course_data: {
         0: {
-            title: "Basics", subcategories: ["Introduction to PHP", "Getting started", "How it works", "Syntax", "Echo (print)", "PHP variables", "Comments in PHP"]
+            title: "Basics", subcategories: ["Introduction to PHP", "How it works", "Syntax", "Echo (print)", "PHP variables", "Comments in PHP"]
         }, 1: {
             title: "Data types", subcategories: ["Introduction", "String", "Integer", "Boolean", "Float"]
         }, 2: {
