@@ -69,6 +69,10 @@
   }
 }
 
+.sidebar-active i, .sidebar-active span {
+  color: $primary-color;
+}
+
 @media (max-width: 1200px) {
   .sidebar {
     position: fixed;

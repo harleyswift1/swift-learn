@@ -344,6 +344,10 @@
   display: none;
 }
 
+.sidebar-active i, .sidebar-active span {
+  color: #7f92ff;
+}
+
 @media (max-width: 1200px) {
   .sidebar {
     position: fixed;
@@ -389,23 +393,12 @@
 }
 
 .lesson-widget {
-  height: 21rem;
   width: 18rem;
   background-color: #17181B;
   border-radius: 8px;
   transition: 100ms ease-in-out;
   border: 1px solid #2E3134;
   border-top: 8px solid #7f92ff;
-}
-.lesson-widget button {
-  background-color: #0E1013;
-  border-radius: 0 0 8px 8px;
-  border-bottom: 1px solid #2E3134;
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 1.2rem;
-  height: 3.765rem;
-  width: 100%;
 }
 .lesson-widget:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
@@ -614,10 +607,6 @@ input {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #8d8d8d;
-}
-
-.active * {
-  color: #7f92ff;
 }
 
 .rotate180 {

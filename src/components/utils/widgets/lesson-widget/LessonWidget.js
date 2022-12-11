@@ -7,8 +7,5 @@ export default function LessonWidget(props) {
             <strong>{props.title}</strong>
             <span><p>{props.description}</p></span>
         </div>
-        <button className="lesson-widget-button">
-            LEARN
-        </button>
     </a>)
 }

@@ -40,24 +40,12 @@
 }
 
 .lesson-widget {
-  height: 21rem;
   width: 18rem;
   background-color: $off-black;
   border-radius: 8px;
   transition: 100ms ease-in-out;
   border: 1px solid $dark-grey;
   border-top: 8px solid $primary-color;
-
-  button {
-    background-color: $black;
-    border-radius: 0 0 8px 8px;
-    border-bottom: 1px solid $dark-grey;
-    color: $white;
-    font-weight: bold;
-    font-size: 1.2rem;
-    height: 3.765rem;
-    width: 100%;
-  }
 
   &:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
@@ -79,7 +67,6 @@
     font-size: 1.4rem;
   }
 }
-
 
 @media (max-width: 1400px) {
   .lesson-widget-content {
@@ -103,7 +90,7 @@
   .php-code {
     padding: 0.2rem 0.4rem 0.2rem 1rem;
     background-color: $off-black;
-    color: $white;;
+    color: $white;
     border-radius: 0 0 8px;
   }
 
@@ -171,7 +158,7 @@
 }
 
 .type-tip {
-  border-left: 8px solid $white;;
+  border-left: 8px solid $white;
 }
 
 .type-info {

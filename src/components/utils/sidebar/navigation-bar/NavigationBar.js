@@ -18,7 +18,7 @@ function NavigationBarItem(props) {
     const href = props.href;
     const title = props.title;
     const iconClass = props.iconClass;
-    return (<a className={page === href ? "active" : ""} href={href}>
+    return (<a className={page === href ? "sidebar-active" : ""} href={href}>
             <div className={"sidebar_nav_link"}><i className={iconClass}></i><span className={"hide_on_sidebar_closed"}>{title}</span></div>
         </a>);
 }
