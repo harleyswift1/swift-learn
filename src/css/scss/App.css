@@ -125,6 +125,9 @@
   display: flex;
   column-gap: 10rem;
 }
+.content .lesson-page li {
+  color: #cbcbcb;
+}
 .content .page-buttons {
   display: flex;
   justify-content: space-between;
