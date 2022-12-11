@@ -40,7 +40,8 @@
 }
 
 .lesson-widget {
-  width: 18rem;
+  width: 15rem;
+  min-height: 18rem;
   background-color: $off-black;
   border-radius: 8px;
   transition: 100ms ease-in-out;
@@ -59,7 +60,7 @@
 }
 
 .lesson-widget-content {
-  padding: 3rem 2rem;
+  padding: 2rem;
   color: $white;
 
   strong {

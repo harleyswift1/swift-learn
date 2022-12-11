@@ -4,7 +4,7 @@ export default function AuthPage(props) {
     const loggingIn = props.action === "login";
     return (<div className={"auth-page"}>
         <div className="auth-page-content">
-            <i className="fas fa-satellite-dish"></i><h2>{loggingIn ? "Login to your account" : "Register an account"}</h2>
+            <h2>{loggingIn ? "Login to your account" : "Register an account"}</h2>
             <p>{loggingIn ? "Login to your " : "Register an "} account to get access to profile stats, saved progress and more.</p>
             <form action="/courses" method="POST">
                 <label htmlFor="username">Username</label>

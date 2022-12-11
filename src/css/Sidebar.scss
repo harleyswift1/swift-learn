@@ -50,7 +50,7 @@
 }
 
 .sidebar_closed {
-  min-width: auto;
+  min-width: 4.5rem;
   overflow: hidden;
 
   .sidebar_header {
@@ -69,8 +69,10 @@
   }
 }
 
-.sidebar-active i, .sidebar-active span {
-  color: $primary-color;
+.sidebar-active {
+  i, span {
+    color: $primary-color;
+  }
 }
 
 @media (max-width: 1200px) {

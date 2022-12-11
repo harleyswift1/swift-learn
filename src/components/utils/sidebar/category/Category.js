@@ -1,14 +1,14 @@
+import {Link, NavLink} from "react-router-dom";
 
 export default function Category(props) {
     const title = props.title;
     const items = props.items;
-    const pathName = window.location.pathname.replaceAll("/", "");
     return (<div className="category">
-        <a href="/courses"><span className="category-title">{title}</span></a>
-        {items.map((item) => (<a className={(item.replaceAll(" ", "-").toLowerCase() === pathName ? "active " : "") + "category-subtitle"}
-                                 href={item.replaceAll(" ", "-").toLowerCase()}
+        <Link to="/courses"><span className="category-title">{title}</span></Link>
+        {items.map((item) => (<NavLink className={((navData) => navData.isActive ? "active" : "") + " category-subtitle"}
+                                 to={item.replaceAll(" ", "-").toLowerCase()}
                                  key={item}>
             {item}
-        </a>))}
+        </NavLink>))}
     </div>)
 }

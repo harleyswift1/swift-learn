@@ -4,12 +4,13 @@ import Button from "../../reusable/Button/Button";
 import PHPCode from "../../widgets/php/PHPCode";
 import Contents from "../../../page-lesson/side-widgets/contents/Contents";
 import AdvertWidget from "../../../page-lesson/side-widgets/advert/AdvertWidget";
+import {Link} from "react-router-dom";
 
 export default function IntroductionToPHP() {
     //const previousPage = ""; // first page (delete)
     const nextPage = "getting-started";
 
-    return (<div className={"main-component"}>
+    return (<div className={"lesson-page"}>
         <div>
             <Breadcrumb topic={"Basics"} subtopic={"Introduction to PHP"}/>
             <h1>Introduction to PHP</h1>
@@ -39,9 +40,9 @@ export default function IntroductionToPHP() {
                 {/*    <Button text={"Previous Page"} icon={null} bg={"var(--superlight-gray)"} color={"var(--black)"}/>*/}
                 {/*</a>*/}
                 <div/>
-                <a href={nextPage}>
+                <Link to={nextPage}>
                     <Button text={"Next Page"} icon={null} bg={"#7F92FF"} color={"#0E1013"}/>
-                </a>
+                </Link>
             </div>
         </div>
         <div className="widgets-container">

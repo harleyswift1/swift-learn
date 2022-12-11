@@ -21,7 +21,7 @@
   }
 }
 .auth-page {
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,35 +90,39 @@
 
 .category {
   margin: 1rem 0;
-  color: #ffffff;
+}
+.category .active {
+  color: #7f92ff;
 }
 .category .category-title {
   font-size: 1.4rem;
 }
 .category .category-subtitle {
-  color: #cbcbcb;
   padding-left: 0.4rem;
   display: block;
   margin: 0.4rem 0;
 }
 .category .category-subtitle:hover {
-  color: #ffffff;
+  filter: brightness(90%);
 }
 
 .content {
   display: flex;
-  width: 100%;
   background-color: #202124;
+  height: 100vh;
 }
 .content > section {
   width: 100%;
 }
-.content .main-component {
-  display: flex;
-  padding: 2.2rem 4rem 4rem;
-  overflow-y: scroll;
-  column-gap: 4rem;
+.content .base-page {
+  width: 100%;
   max-height: 100vh;
+  overflow-y: scroll;
+}
+.content .lesson-page {
+  padding: 2.2rem 4rem 4rem;
+  display: flex;
+  column-gap: 4rem;
 }
 .content .page-buttons {
   display: flex;
@@ -132,7 +136,7 @@
 }
 
 @media (max-width: 1200px) {
-  .main-component {
+  .lesson-page {
     flex-direction: column;
     margin-left: 2rem;
   }
@@ -141,9 +145,12 @@
   }
 }
 @media (max-width: 800px) {
-  .main-component {
+  .lesson-page {
     flex-direction: column;
   }
+}
+.courses-page {
+  padding: 2.2rem 4rem 4rem;
 }
 .courses-page h2 {
   margin-bottom: 1rem;
@@ -164,7 +171,7 @@
 
 .home-page {
   background: linear-gradient(70deg, #0E1013 68%, #202124 60%);
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
 }
@@ -290,6 +297,10 @@
   background-color: #2E3134;
 }
 
+.profile-page {
+  padding: 2.2rem 4rem 4rem;
+}
+
 .profile-page-stats-widgets {
   display: flex;
   flex-wrap: wrap;
@@ -364,7 +375,7 @@
 }
 
 .sidebar_closed {
-  min-width: auto;
+  min-width: 4.5rem;
   overflow: hidden;
 }
 .sidebar_closed .sidebar_header {
@@ -429,7 +440,8 @@
 }
 
 .lesson-widget {
-  width: 18rem;
+  width: 15rem;
+  min-height: 18rem;
   background-color: #17181B;
   border-radius: 8px;
   transition: 100ms ease-in-out;
@@ -446,7 +458,7 @@
 }
 
 .lesson-widget-content {
-  padding: 3rem 2rem;
+  padding: 2rem;
   color: #ffffff;
 }
 .lesson-widget-content strong {
@@ -579,8 +591,8 @@
 body, html {
   margin: 0;
   padding: 0;
+  width: 100%;
   font-family: "normal", sans-serif;
-  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 

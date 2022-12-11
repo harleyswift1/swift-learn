@@ -1,6 +1,7 @@
 import home_image from "../../assets/images/hero-illustration.svg";
 import cloud from "../../assets/images/cloud.png";
 import Button from "../utils/reusable/Button/Button";
+import {Link} from "react-router-dom";
 
 export default function Home() {
     return (<div className={"home-page"}>
@@ -13,9 +14,9 @@ export default function Home() {
                     languages - from the fundamentals, all the way to advanced concepts
                 </p>
                 <div className="hero-buttons">
-                    <a href="/register"> <Button text={"Register"} bg={"#2E3134"} color={"#ffffff"}/></a>
+                    <Link to="/register"> <Button text={"Register"} bg={"#2E3134"} color={"#ffffff"}/></Link>
                     <span>or</span>
-                    <a href="/login"> <Button text={"Login"} bg={"#FFFFFF"} color={"#17181B"}/></a>
+                    <Link to="/login"> <Button text={"Login"} bg={"#FFFFFF"} color={"#17181B"}/></Link>
                 </div>
             </div>
             <div className="hero-image">
