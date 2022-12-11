@@ -1,4 +1,3 @@
-
 export default function Contents(props) {
     const items = props.items;
     return (<div className="contents-widget">
