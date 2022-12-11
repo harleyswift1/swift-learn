@@ -1,4 +1,3 @@
-import "./AdvertWidget.css"
 import ad1 from "../../../../assets/images/ad1.png";
 import ad2 from "../../../../assets/images/advertisement.png";
 

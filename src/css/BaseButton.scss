@@ -1,0 +1,23 @@
+.button {
+    border-radius: 6px;
+    background-color: $white;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    column-gap: 0.6rem;
+    font-size: 0.85rem;
+    color: $primary-color;
+    border: none;
+    align-items: center;
+    padding: 0.7rem 1.4rem;
+    white-space: nowrap;
+
+    &:hover {
+        filter: brightness(95%);
+    }
+
+}
+
+.primary {
+    color: $primary-color;
+}

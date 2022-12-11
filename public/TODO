@@ -1,11 +1,16 @@
 Required:
-- Create base "challenge" page
 - Create some challenges
 - Implement user auth with accounts
-- Link challenges with account so you can earn trophies
 - Finish all courses pages
 - Design and do footer
 - Turn course data into MySQL Database
+- Create profile popout when you click the profile icon
+- Create trophy popout when you click the trophy icon
+- Make login page
+- Make register page
+- Create custom <noscript> page
+- Maybe add some "popular" lessons widgets on the home page or add something
+  else to make it look a bit more full (maybe even add some more content as you scroll down)
 
 Later on down the line:
 - Create a blog page and make some blogs about designing and making websites
@@ -13,5 +18,7 @@ Later on down the line:
 - Create leaderboard for points
 - Make Pro membership actually functional
 
+Known Bugs:
 
 DOING NOW:
+- Add some stuff on the closed sidebar to make it look less empty

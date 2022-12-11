@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import "./css/App.css"
-import "./css/keyframes.css";
-import Home from "./components/page-home/home/Home";
+import "./css/scss/App.scss"
+import "./css/keyframes.scss";
+import Home from "./components/page-home/Home";
 import Content from "./components/content/Content";
 import ProfilePage from "./components/page-profile/ProfilePage";
+import CoursesPage from "./components/page-courses/CoursesPage";
 import IntroductionToPHP from "./components/utils/lessons/introduction-to-php/IntroductionToPHP";
-import CoursesPage from "./components/page-courses/courses-page/CoursesPage";
+import WriteupPage from "./components/page-writeup/WriteupPage";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<BrowserRouter>
@@ -21,6 +22,7 @@ root.render(<BrowserRouter>
         <Route path="challenges" element={<Content mainComponent={<Home/>}/>}/>
         <Route path="profile" element={<Content mainComponent={<ProfilePage/>}/>}/>
         <Route path="courses" element={<Content mainComponent={<CoursesPage/>}/>}/>
+        <Route path="writeup" element={<Content mainComponent={<WriteupPage/>}/>}/>
 
         {/*lesson routes*/}
 

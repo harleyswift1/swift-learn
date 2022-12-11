@@ -1,13 +1,11 @@
-import "./LessonWidget.css";
-import external_link_icon from "../../../../assets/icons/external_link_icon.svg";
+import book_icon from "../../../../assets/icons/book_icon.png";
 
 export default function LessonWidget(props) {
-    return (<div className="lesson-widget"><a href={props.url}>
-
-        <div className={"lesson-widget-header"}><strong>{props.title}</strong>
-            <div><img src={external_link_icon} alt="Open Lesson"/></div>
+    return (<a href={props.url} className="lesson-widget">
+        <div className="lesson-widget-content">
+            <img src={book_icon} alt=""/>
+            <strong>{props.title}</strong>
+            <span><p>{props.description}</p></span>
         </div>
-        <span><p>{props.description}</p></span>
-
-    </a></div>)
+    </a>)
 }

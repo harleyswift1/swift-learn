@@ -1,0 +1,125 @@
+$primary-color: #7f92ff;
+$go-pro: #e85c11;
+
+$black: #0E1013;
+$off-black: #17181B;
+$superdark-grey: #202124;
+$darker-grey: #282A2D;
+$dark-grey: #2E3134;
+$light-text: #BDC1C6;
+$light-grey: #F1F3F4;
+$off-white: #F8F9FA;
+$white: #ffffff;
+
+$php-color: #5DD7C1;
+$info: #FFBD13;
+$error: #E55353;
+$horray: #40CC45;
+$challenge: #39A8E7;
+
+@import '../keyframes';
+@import '../AuthPage';
+@import '../Breadcrumb';
+@import '../BaseButton';
+@import '../Category';
+@import '../PageContent';
+@import '../CoursesPage';
+@import '../HomePage';
+@import '../MainPopup';
+@import '../NavigationBar';
+@import '../ProfilePage';
+@import '../Sidebar';
+@import '../WriteupPage';
+@import '../Widgets';
+@import '../keyframes';
+
+@font-face {
+  font-family: "normal";
+  font-weight: normal;
+  src: url("../../assets/font/Harmonia_Sans_Regular.otf");
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'normal', sans-serif;
+  overflow-x: hidden;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: $light-grey;
+}
+
+* {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 38px;
+}
+
+h3 {
+  font-size: 34px;
+  font-weight: 400;
+}
+
+p {
+  color: $light-text;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, span, div {
+  margin: 0;
+  color: $off-white;
+
+}
+
+input {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #484848;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #797979;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8d8d8d;
+}
+
+.rotate180 {
+  transform: rotate(180deg);
+}
+
+.divider {
+  width: 100%;
+  border-top: 1px solid grey;
+  border-radius: 8px;
+}
+
+.highlight {
+  color: $primary-color;
+  display: inline;
+}
