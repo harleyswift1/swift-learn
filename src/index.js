@@ -9,6 +9,7 @@ import ProfilePage from "./components/page-profile/ProfilePage";
 import CoursesPage from "./components/page-courses/CoursesPage";
 import IntroductionToPHP from "./components/utils/lessons/introduction-to-php/IntroductionToPHP";
 import WriteupPage from "./components/page-writeup/WriteupPage";
+import AuthPage from "./components/page-auth/AuthPage";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<BrowserRouter>
@@ -23,6 +24,8 @@ root.render(<BrowserRouter>
         <Route path="profile" element={<Content mainComponent={<ProfilePage/>}/>}/>
         <Route path="courses" element={<Content mainComponent={<CoursesPage/>}/>}/>
         <Route path="writeup" element={<Content mainComponent={<WriteupPage/>}/>}/>
+        <Route path="register" element={<Content mainComponent={<AuthPage action={"register"}/>}/>}/>
+        <Route path="login" element={<Content mainComponent={<AuthPage action={"login"}/>}/>}/>
 
         {/*lesson routes*/}
 

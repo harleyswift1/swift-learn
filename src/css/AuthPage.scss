@@ -1,0 +1,42 @@
+.auth-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .auth-page-content {
+    padding: 4rem;
+    max-width: 35rem;
+    background-color: $black;
+    border: 1px solid $dark-grey;
+    border-radius: 8px;
+
+    i {
+      font-size: 3rem;
+      color: $primary-color;
+      margin-bottom: 1rem;
+    }
+
+    form {
+      padding-top: 2rem;
+      border-top: 1px solid $dark-grey;
+
+      button {
+        width: 100%;
+        justify-content: center;
+      }
+
+      input {
+        width: 100%;
+        margin: 0.6rem 0 1.8rem;
+        color: $off-white;
+        background-color: transparent;
+        border: 1px solid $dark-grey;
+        border-radius: 6px;
+        padding: 0.8rem;
+      }
+    }
+  }
+
+
+}

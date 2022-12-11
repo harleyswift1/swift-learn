@@ -7,7 +7,7 @@ export default function ProfilePage() {
 
     return (<div className={"main-component"}>
         <div className="profile-page">
-            <h1>Your Profile</h1>
+            <h3>Your Profile</h3>
             <section className="profile-page-stats-widgets">
                 <StatWidget title={"Trophy points"} bigStat={193} subStat={""} description={"You have achieved 193 trophy points"}/>
                 <StatWidget title={"Hours spent"} bigStat={4} subStat={""} description={"You have spent 4 hours learning PHP on SwiftLearn!"}/>
@@ -18,24 +18,24 @@ export default function ProfilePage() {
             <p>Here you can edit your profile information and settings</p>
             <section>
                 <div className="profile-field">
-                    <h4>Username</h4>
+                    <h6>Username</h6>
                     <input type="text" name={"username_input"} id={"settings_username_input"}/>
                 </div>
                 <div className="profile-field">
-                    <h4>Bio</h4>
+                    <h6>Bio</h6>
                     <textarea name={"bio_input"} id={"bio_input"}/>
                 </div>
                 <div className="profile-field">
-                    <h4>Display Name</h4>
+                    <h6>Display Name</h6>
                     <input type="text" name={"displayname_input"} id={"settings_displayname_input"}/>
                 </div>
 
                 <div className="profile-field">
-                    <h4>Phone Number</h4>
+                    <h6>Phone Number</h6>
                     <input type="text" name={"phone_input"} id={"settings_phone_input"}/>
                 </div>
                 <div className="profile-field">
-                    <h4>Email Address</h4>
+                    <h6>Email Address</h6>
                     <input type="text" name={"email_input"} id={"settings_email_input"}/>
                 </div>
                 <Button text={"Save"} bg={"#7F92FF"} color={"#0E1013"}/>

@@ -10,6 +10,7 @@
 
 # production
 /build
+public/TODO
 
 # misc
 .DS_Store

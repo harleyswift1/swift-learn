@@ -6,8 +6,8 @@ $off-black: #17181B;
 $superdark-grey: #202124;
 $darker-grey: #282A2D;
 $dark-grey: #2E3134;
-$light-text: #BDC1C6;
-$light-grey: #F1F3F4;
+$light-grey: #bdbdbd;
+$light-text: #cbcbcb;
 $off-white: #F8F9FA;
 $white: #ffffff;
 
@@ -44,14 +44,9 @@ body, html {
   padding: 0;
   font-family: 'normal', sans-serif;
   overflow-x: hidden;
-  height: 100vh;
   scroll-behavior: smooth;
 }
 
-a {
-  text-decoration: none;
-  color: $light-grey;
-}
 
 * {
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -59,20 +54,40 @@ a {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: $light-text;
+}
+
+h1, h2, h3, h4, h5, h6, span, div {
+  margin: 0;
+  font-weight: normal;
+  color: $off-white;
+}
+
 h1 {
   font-size: 40px;
-  font-weight: 400;
-  margin: 0;
+  margin: 1rem 0;
 }
 
 h2 {
-  font-weight: bold;
   font-size: 38px;
 }
 
 h3 {
-  font-size: 34px;
-  font-weight: 400;
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 20px;
 }
 
 p {
@@ -80,14 +95,12 @@ p {
   line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6, span, div {
-  margin: 0;
-  color: $off-white;
-
-}
-
 input {
   outline: none;
+}
+
+label {
+  color: $light-grey;
 }
 
 ::-webkit-scrollbar {
@@ -122,4 +135,8 @@ input {
 .highlight {
   color: $primary-color;
   display: inline;
+}
+
+.hidden {
+  display: none;
 }

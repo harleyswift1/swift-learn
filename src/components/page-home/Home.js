@@ -13,9 +13,9 @@ export default function Home() {
                     languages - from the fundamentals, all the way to advanced concepts
                 </p>
                 <div className="hero-buttons">
-                    <Button text={"Register"} bg={"#2E3134"} color={"#ffffff"}/>
+                    <a href="/register"> <Button text={"Register"} bg={"#2E3134"} color={"#ffffff"}/></a>
                     <span>or</span>
-                    <Button text={"Login"} bg={"#FFFFFF"} color={"#17181B"}/>
+                    <a href="/login"> <Button text={"Login"} bg={"#FFFFFF"} color={"#17181B"}/></a>
                 </div>
             </div>
             <div className="hero-image">
