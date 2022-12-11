@@ -1,4 +1,3 @@
-import "./Contents.css"
 
 export default function Contents(props) {
     const items = props.items;

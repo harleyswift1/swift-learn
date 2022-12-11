@@ -17,9 +17,9 @@
     font-size: 1rem;
     margin: 0.4rem -0.2rem;
     border-radius: 6px;
-    border: 1px solid var(--light-grey);
-    background-color: var(--superdark-grey);
-    color: var(--light-text);
+    border: 1px solid $light-grey;
+    background-color: $superdark-grey;
+    color: $light-text;
 }
 
 .profile-field textarea {

@@ -1,5 +1,3 @@
-import "./StatWidget.css"
-
 export default function StatWidget(props) {
     const title = props.title;
     const bigStat = props.bigStat;

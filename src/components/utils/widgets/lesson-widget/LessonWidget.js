@@ -1,4 +1,3 @@
-import "./LessonWidget.css";
 import book_icon from "../../../../assets/icons/book_icon.png";
 
 export default function LessonWidget(props) {

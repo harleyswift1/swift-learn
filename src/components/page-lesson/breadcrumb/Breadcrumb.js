@@ -1,4 +1,3 @@
-import "./Breadcrumb.css"
 
 export default function Breadcrumb(props) {
     const topic = props.topic;

@@ -1,4 +1,3 @@
-import "./Sidebar.css"
 import {useCallback} from "react";
 import {courseData} from "../../../data/course_data";
 import Category from "./category/Category";
@@ -16,7 +15,7 @@ export default function Sidebar(props) {
             <a href="/home">
                 <div className={"sidebar_header"}><i className={"fas fa-satellite-dish"}></i> {props.toggled ? <span>Swift Learn</span> : null}</div>
             </a>
-            {props.toggled ? <Button bg={"var(--dark-grey)"} color="var(--white)" text={"Search"}/> : null}
+            {props.toggled ? <Button bg={"#2E3134"} color="#FFFFFF" text={"Search"}/> : null}
             <div className="divider" />
             <NavigationBar/>
 

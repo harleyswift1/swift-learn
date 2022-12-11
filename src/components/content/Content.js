@@ -1,4 +1,3 @@
-import "./Content.css"
 import Sidebar from "../utils/sidebar/Sidebar";
 import {useState} from "react";
 import MainPopup from "../utils/popup/MainPopup";

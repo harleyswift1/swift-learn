@@ -1,13 +1,13 @@
 .button {
     border-radius: 6px;
-    background-color: var(--white);
+    background-color: $white;;
     outline: none;
     cursor: pointer;
     display: flex;
     column-gap: 0.6rem;
     font-size: 0.85rem;
-    color: var(--primary-color);
-    border: 1px solid var(--light-grey);
+    color: $primary-color;
+    border: none;
     align-items: center;
     padding: 0.7rem 1.4rem;
     white-space: nowrap;
@@ -18,5 +18,5 @@
 }
 
 .primary {
-    color: var(--primary-color);
+    color: $primary-color;
 }

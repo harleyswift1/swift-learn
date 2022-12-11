@@ -1,4 +1,3 @@
-import "./ProfilePage.css"
 import StatWidget from "./stat-widget/StatWidget";
 import Button from "../utils/reusable/Button/Button";
 
@@ -39,7 +38,7 @@ export default function ProfilePage() {
                     <h4>Email Address</h4>
                     <input type="text" name={"email_input"} id={"settings_email_input"}/>
                 </div>
-                <Button text={"Save"} bg={"var(--primary-color)"} color={"var(--black)"}/>
+                <Button text={"Save"} bg={"#7F92FF"} color={"#0E1013"}/>
             </section>
         </div>
     </div>)

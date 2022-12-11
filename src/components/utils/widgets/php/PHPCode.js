@@ -1,4 +1,3 @@
-import "./PHPCode.css"
 
 export default function PHPCode(props) {
     const description = props.description;

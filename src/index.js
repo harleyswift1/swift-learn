@@ -6,7 +6,7 @@ import "./css/keyframes.css";
 import Home from "./components/page-home/Home";
 import Content from "./components/content/Content";
 import ProfilePage from "./components/page-profile/ProfilePage";
-import CoursesPage from "./components/page-courses/courses-page/CoursesPage";
+import CoursesPage from "./components/page-courses/CoursesPage";
 import IntroductionToPHP from "./components/utils/lessons/introduction-to-php/IntroductionToPHP";
 import WriteupPage from "./components/page-writeup/WriteupPage";
 

@@ -1,4 +1,3 @@
-import "./Tooltip.css"
 
 export default function Tooltip(props) {
     const type = props.type;

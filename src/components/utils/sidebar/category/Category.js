@@ -1,4 +1,3 @@
-import "./Category.css"
 
 export default function Category(props) {
     const title = props.title;

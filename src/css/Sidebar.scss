@@ -1,6 +1,6 @@
 .sidebar {
-    background-color: var(--off-black);
-    border-right: 1px solid var(--dark-grey);
+    background-color: $off-black;
+    border-right: 1px solid $dark-grey;
     overflow-y: scroll;
     min-width: 18rem;
     max-height: 100vh;
@@ -36,14 +36,14 @@
 
 .sidebar_header i {
     font-size: 1.8rem;
-    color: var(--primary-color);
+    color: $primary-color;
 }
 
 .sidebar_toggle_icon {
-    color: var(--primary-color);
+    color: $primary-color;
     position: relative;
     border-radius: 50%;
-    background-color: var(--off-black);
+    background-color: $off-black;
     left: 4px;
     font-size: 2rem;
     cursor: pointer;

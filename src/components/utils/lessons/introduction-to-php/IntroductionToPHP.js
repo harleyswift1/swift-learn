@@ -40,7 +40,7 @@ export default function IntroductionToPHP() {
                 {/*</a>*/}
                 <div/>
                 <a href={nextPage}>
-                    <Button text={"Next Page"} icon={null} bg={"var(--primary-color)"} color={"var(--black)"}/>
+                    <Button text={"Next Page"} icon={null} bg={"#7F92FF"} color={"#0E1013"}/>
                 </a>
             </div>
         </div>

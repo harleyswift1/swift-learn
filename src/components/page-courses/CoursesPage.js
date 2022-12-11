@@ -1,5 +1,4 @@
-import "./CoursesPage.css"
-import LessonWidget from "../../utils/widgets/lesson-widget/LessonWidget";
+import LessonWidget from "../utils/widgets/lesson-widget/LessonWidget";
 
 export default function CoursesPage() {
 

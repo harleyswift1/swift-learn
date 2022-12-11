@@ -1,5 +1,5 @@
 .home-page {
-    background: linear-gradient(70deg, var(--black) 68%, var(--superdark-grey) 60%);
+    background: linear-gradient(70deg, $black 68%, $superdark-grey 60%);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -63,7 +63,7 @@
 }
 
 h1 .highlight, p .highlight {
-    color: var(--primary-color);
+    color: $primary-color;
     display: inline;
 }
 
@@ -83,6 +83,6 @@ h1 .highlight, p .highlight {
     }
 
     .home-page {
-        background: var(--black);
+        background: $black;
     }
 }

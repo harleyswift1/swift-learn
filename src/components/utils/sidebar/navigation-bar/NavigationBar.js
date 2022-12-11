@@ -1,4 +1,3 @@
-import "./NavigationBar.css"
 
 export default function NavigationBar() {
     const page = window.location.pathname;

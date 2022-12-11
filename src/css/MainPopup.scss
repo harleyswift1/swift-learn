@@ -6,8 +6,8 @@
     max-width: 35rem;
     z-index: 10;
     border-radius: 8px;
-    background-color: var(--darker-grey);
-    border: 1px solid var(--light-grey);
+    background-color: $darker-grey;
+    border: 1px solid $light-grey;
     box-shadow: rgba(0, 0, 0, 0.35) 0 5px 25px;
 }
 
@@ -22,5 +22,5 @@
 }
 
 .main-popup a {
-    color: var(--primary-color);
+    color: $primary-color;
 }

@@ -1,4 +1,3 @@
-import "./MainPopup.css";
 import {getCookie, setCookie} from "../../../data/cookie_helper";
 import {useState} from "react";
 

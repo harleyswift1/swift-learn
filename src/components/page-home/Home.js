@@ -1,4 +1,3 @@
-import "./Home.css";
 import home_image from "../../assets/images/hero-illustration.svg";
 import cloud from "../../assets/images/cloud.png";
 import Button from "../utils/reusable/Button/Button";
@@ -14,9 +13,9 @@ export default function Home() {
                     languages - from the fundamentals, all the way to advanced concepts
                 </p>
                 <div className="hero-buttons">
-                    <Button text={"Register"} bg={"var(--dark-grey)"} color={"var(--white)"}/>
+                    <Button text={"Register"} bg={"#2E3134"} color={"#ffffff"}/>
                     <span>or</span>
-                    <Button text={"Login"} bg={"var(--white)"} color={"var(--off-black)"}/>
+                    <Button text={"Login"} bg={"#FFFFFF"} color={"#17181B"}/>
                 </div>
             </div>
             <div className="hero-image">

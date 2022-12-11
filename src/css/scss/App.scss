@@ -1,9 +1,42 @@
+$primary-color: #7f92ff;
+$go-pro: #e85c11;
+
+$black: #0E1013;
+$off-black: #17181B;
+$superdark-grey: #202124;
+$darker-grey: #282A2D;
+$dark-grey: #2E3134;
+$light-text: #BDC1C6;
+$light-grey: #F1F3F4;
+$off-white: #F8F9FA;
+$white: #ffffff;
+
+$php-color: #5DD7C1;
+$info: #FFBD13;
+$error: #E55353;
+$horray: #40CC45;
+$challenge: #39A8E7;
+
+@import '../keyframes.css';
+@import '../AuthPage';
+@import '../Breadcrumb';
+@import '../BaseButton';
+@import '../Category';
+@import '../PageContent';
+@import '../CoursesPage';
+@import '../HomePage';
+@import '../MainPopup';
+@import '../NavigationBar';
+@import '../ProfilePage';
+@import '../Sidebar';
+@import '../WriteupPage';
+@import '../Widgets';
+
 @font-face {
   font-family: "normal";
   font-weight: normal;
-  src: url("src/css/Harmonia_Sans_Regular.otf");
+  src: url("../../assets/font/Harmonia_Sans_Regular.otf");
 }
-
 
 body, html {
   margin: 0;
@@ -16,7 +49,7 @@ body, html {
 
 a {
   text-decoration: none;
-  color: red;
+  color: $light-grey;
 }
 
 * {
@@ -42,39 +75,18 @@ h3 {
 }
 
 p {
-  color: var(--light-text);
+  color: $light-text;
   line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6, span, div {
   margin: 0;
-  color: var(--off-white);
+  color: $off-white;
 
 }
 
 input {
   outline: none;
-}
-
-  :root {
-    --primary-color: #7f92ff;
-    --go-pro: #e85c11;
-
-    --black: #0E1013;
-    --off-black: #17181B;
-    --superdark-grey: #202124;
-    --darker-grey: #282A2D;
-    --dark-grey: #2E3134;
-    --light-text: #BDC1C6;
-    --light-grey: #F1F3F4;
-    --off-white: #F8F9FA;
-    --white: #ffffff;
-
-    --php-color: #5DD7C1;
-    --info: #FFBD13;
-    --error: #E55353;
-    --horray: #40CC45;
-    --challenge: #39A8E7;
 }
 
 ::-webkit-scrollbar {
@@ -97,7 +109,7 @@ input {
 }
 
 .active * {
-  color: var(--primary-color);
+  color: $primary-color;
 }
 
 .rotate180 {
