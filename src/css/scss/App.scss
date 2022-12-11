@@ -17,7 +17,7 @@ $error: #E55353;
 $horray: #40CC45;
 $challenge: #39A8E7;
 
-@import '../keyframes.css';
+@import '../keyframes';
 @import '../AuthPage';
 @import '../Breadcrumb';
 @import '../BaseButton';
@@ -31,6 +31,7 @@ $challenge: #39A8E7;
 @import '../Sidebar';
 @import '../WriteupPage';
 @import '../Widgets';
+@import '../keyframes';
 
 @font-face {
   font-family: "normal";
@@ -120,4 +121,9 @@ input {
   width: 100%;
   border-top: 1px solid grey;
   border-radius: 8px;
+}
+
+.highlight {
+  color: $primary-color;
+  display: inline;
 }

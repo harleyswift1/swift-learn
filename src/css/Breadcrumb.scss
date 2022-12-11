@@ -1,10 +1,12 @@
-.breadcrumbs a {
+.breadcrumbs {
+  a {
     color: $white;
     margin: 0 0.2rem;
-}
+  }
 
-.breadcrumbs-subtopic {
+  .breadcrumbs-subtopic {
     font-size: 0.8rem;
-    color: $light-grey;
+    color: $light-text;
     margin: 0 0.2rem;
+  }
 }

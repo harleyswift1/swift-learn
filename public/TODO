@@ -7,6 +7,7 @@ Required:
 - Create profile popout when you click the profile icon
 - Create trophy popout when you click the trophy icon
 - Make login page
+- Fix double ";;" in scss files
 - Make register page
 - Create custom <noscript> page
 - Maybe add some "popular" lessons widgets on the home page or add something

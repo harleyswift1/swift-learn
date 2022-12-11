@@ -1,45 +1,12 @@
 .sidebar {
-    background-color: $off-black;
-    border-right: 1px solid $dark-grey;
-    overflow-y: scroll;
-    min-width: 18rem;
-    max-height: 100vh;
-    z-index: 5;
-}
+  background-color: $off-black;
+  border-right: 1px solid $dark-grey;
+  overflow-y: scroll;
+  min-width: 18rem;
+  max-height: 100vh;
+  z-index: 5;
 
-.sidebar_open {
-    min-width: 18rem;
-}
-
-.sidebar_closed {
-    min-width: auto;
-    overflow: hidden;
-}
-
-.sidebar_contents {
-    padding: 2rem 1rem;
-    display: flex;
-    flex-direction: column;
-    row-gap: 1.4rem;
-}
-
-.sidebar_header {
-    display: flex;
-    align-items: center;
-    column-gap: 1rem;
-}
-
-.sidebar_header span {
-    color: white;
-    font-size: 1.4rem;
-}
-
-.sidebar_header i {
-    font-size: 1.8rem;
-    color: $primary-color;
-}
-
-.sidebar_toggle_icon {
+  .sidebar_toggle_icon {
     color: $primary-color;
     position: relative;
     border-radius: 50%;
@@ -47,33 +14,66 @@
     left: 4px;
     font-size: 2rem;
     cursor: pointer;
+  }
+
+  .sidebar_contents {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.4rem;
+  }
+
+  .sidebar_header {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+
+    span {
+      color: white;
+      font-size: 1.4rem;
+    }
+
+    i {
+      font-size: 1.8rem;
+      color: $primary-color;
+    }
+  }
 }
 
-.sidebar_open .sidebar_toggle_icon {
+.sidebar_open {
+  min-width: 18rem;
+
+  .sidebar_toggle_icon {
     position: absolute;
     left: 14.5rem;
+  }
 }
 
-.sidebar_closed .sidebar_header {
+.sidebar_closed {
+  min-width: auto;
+  overflow: hidden;
+
+  .sidebar_header {
     justify-content: center;
-}
+  }
 
-.sidebar_closed .sidebar_nav i {
+  .sidebar_nav i {
     min-width: 2.2rem;
     text-align: center;
     padding: 0.4rem 0.4rem;
     margin-right: 0;
-}
+  }
 
-.sidebar_closed .hide_on_sidebar_closed {
+  .hide_on_sidebar_closed {
     display: none;
+  }
 }
 
-@media all and (max-width: 1200px) {
-    .sidebar {
-        position: fixed;
-        height: 100%;
-        box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
-    }
+@media (max-width: 1200px) {
+  .sidebar {
+    position: fixed;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  }
 
 }

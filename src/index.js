@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import "./css/scss/App.scss"
-import "./css/keyframes.css";
+import "./css/keyframes.scss";
 import Home from "./components/page-home/Home";
 import Content from "./components/content/Content";
 import ProfilePage from "./components/page-profile/ProfilePage";

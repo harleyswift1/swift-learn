@@ -1,17 +1,16 @@
 .main-popup {
-    position: fixed;
-    padding: 1rem;
-    margin: 1rem;
-    bottom: 1rem;
-    max-width: 35rem;
-    z-index: 10;
-    border-radius: 8px;
-    background-color: $darker-grey;
-    border: 1px solid $light-grey;
-    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 25px;
-}
+  position: fixed;
+  padding: 1rem;
+  margin: 1rem;
+  bottom: 1rem;
+  max-width: 35rem;
+  z-index: 10;
+  border-radius: 8px;
+  background-color: $darker-grey;
+  border: 1px solid $light-grey;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 25px;
 
-.main-popup i {
+  i {
     float: right;
     cursor: pointer;
     padding: 0.6rem;
@@ -19,8 +18,9 @@
     position: relative;
     bottom: 0.6rem;
     left: 0.6rem;
-}
+  }
 
-.main-popup a {
+  a {
     color: $primary-color;
+  }
 }

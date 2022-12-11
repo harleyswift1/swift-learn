@@ -2,7 +2,7 @@
 export default function Contents(props) {
     const items = props.items;
     return (<div className="contents-widget">
-        <div className={"contents-widget-header"}>Table of contents</div>
+        <span>Table of contents</span>
 
         <div className="contents-widget-items">
             {items.map((item, index) => {
