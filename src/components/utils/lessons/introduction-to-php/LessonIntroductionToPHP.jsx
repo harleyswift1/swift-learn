@@ -8,7 +8,7 @@ export default function LessonGettingStarted() {
     const nextPage = "/lesson/how-it-works";
 
     return (<div className={"lesson-page"}>
-        <div>
+        <main>
             <Breadcrumb topic={"Basics"} subtopic={"Introduction to PHP"}/>
             <h1>Introduction to PHP</h1>
             <h3 id={"What is PHP?"}>What is PHP?</h3>
@@ -34,12 +34,12 @@ export default function LessonGettingStarted() {
             <Tooltip type={"tip"}
                      icon={"fa-regular fa-lightbulb"}
                      title={"Tip"}
-                     content={"PHP is an industry standard in" + " full-stack Web Development. So if you want to become a Web Developer, it's crucial that you learn PHP."}/>
+                     content={"PHP is an industry standard in full-stack Web Development. So if you want to become a Web Developer, it's crucial that you learn PHP."}/>
             <h3 id={"Congratulations!"}>Congratulations!</h3>
             <p>You have completed your first PHP lesson! There's plenty more, so click the "Next Page" button to go to the next lesson.</p>
             <br/>
            <PageButtons nextPage={nextPage}/>
-        </div>
+        </main>
         <div className="widgets-container">
             <Contents items={["What is PHP?", "How is PHP written?", "Congratulations!"]}/>
             <AdvertWidget/>

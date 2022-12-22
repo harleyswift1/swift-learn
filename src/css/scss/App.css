@@ -255,6 +255,9 @@
   border: 1px solid #bdbdbd;
   box-shadow: rgba(0, 0, 0, 0.35) 0 5px 25px;
 }
+.main-popup span {
+  color: #cbcbcb;
+}
 .main-popup i {
   float: right;
   cursor: pointer;

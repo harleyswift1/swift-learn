@@ -10,7 +10,7 @@ export default function LessonSyntax() {
     const nextPage = "/lesson/echo-(print)";
 
     return (<div className={"lesson-page"}>
-        <div>
+        <main>
             <Breadcrumb topic={"Basics"} subtopic={"Syntax"}/>
             <h1>Syntax</h1>
             <h3 id={"What is the PHP syntax?"}>What is the PHP syntax?</h3>
@@ -32,14 +32,14 @@ export default function LessonSyntax() {
                 <li>Variable and function names are case sensitive</li>
                 <li>Variable and function names must not contain special characters or spaces</li>
             </ol>
-            <PHPCode description="Here are some examples of valid and invalid PHP code" content={"$var foo = 5;              //valid \n" + "$var my variable = 5;      //invalid \n" + "$var number = 5            //invalid \n" + "$var v@r!abl3 = 5;         //invalid \n"}/>
+            <PHPCode description="Here are some examples of valid and invalid PHP code" content={"$var foo = 5;              //valid \n$var my variable = 5;      //invalid \n$var number = 5            //invalid \n$var v@r!abl3 = 5;         //invalid \n"}/>
             <p>After a while, you will soon become super familiar with the PHP syntax, and it will
                 become second nature. In the meantime, make sure you're adding your semi-colons
                 on the end of your statements to save you 3 hours of debugging time!</p>
 
 
             <PageButtons nextPage={nextPage} previousPage={previousPage}/>
-        </div>
+        </main>
         <div className="widgets-container">
             <Contents items={["What is the PHP syntax?", "Important syntax rules"]}/>
             <AdvertWidget/>

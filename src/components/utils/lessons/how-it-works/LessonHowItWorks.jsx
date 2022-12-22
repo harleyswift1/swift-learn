@@ -10,7 +10,7 @@ export default function LessonHowItWorks() {
     const nextPage = "/lesson/syntax";
 
     return (<div className={"lesson-page"}>
-        <div>
+        <main>
             <Breadcrumb topic={"Basics"} subtopic={"How it works"}/>
             <h1>How it works</h1>
             <h3 id={"How is PHP run?"}>How is PHP run?</h3>
@@ -31,7 +31,7 @@ export default function LessonHowItWorks() {
             <p>PHP is a fun language to write because it is powerful, flexible, and easy to use. It has a vast ecosystem of libraries and frameworks that make
                 it easy to develop complex web applications quickly. PHP also has a large and supportive community, so help is always available when you need it.</p>
             <PageButtons nextPage={nextPage} previousPage={previousPage}/>
-        </div>
+        </main>
         <div className="widgets-container">
             <Contents items={["How is PHP run?", "When writing PHP code", "Congratulations!"]}/>
             <AdvertWidget/>

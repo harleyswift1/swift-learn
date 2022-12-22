@@ -4,7 +4,7 @@ import Button from "../utils/reusable/Button/Button";
 
 export default function ProfilePage() {
 
-    return (<div className="profile-page">
+    return (<main className="profile-page">
             <h3>Your Profile</h3>
             <section className="profile-page-stats-widgets">
                 <StatWidget title={"Trophy points"} bigStat={193} subStat={""} description={"You have achieved 193 trophy points"}/>
@@ -38,5 +38,5 @@ export default function ProfilePage() {
                 </div>
                 <Button text={"Save"} bg={"#7F92FF"} color={"#0E1013"}/>
             </section>
-        </div>)
+        </main>)
 }

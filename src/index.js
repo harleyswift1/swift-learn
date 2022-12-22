@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import ReactDOM from 'react-dom/client';
 import {BrowserRouter, Outlet, Route, Routes} from "react-router-dom";
 import "./css/scss/App.scss"
-import "./css/keyframes.scss";
 import Home from "./components/page-home/Home";
 import ProfilePage from "./components/page-profile/ProfilePage";
 import CoursesPage from "./components/page-courses/CoursesPage";
